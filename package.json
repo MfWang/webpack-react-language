@@ -1,0 +1,30 @@
+{
+  "name": "webpack-react-language",
+  "version": "1.0.0",
+  "description": "构建多语言版本的移动端网站",
+  "main": "webpack.config.js",
+  "scripts": {
+    "start": "webpack",
+    "dev": "webpack-dev-server --devtool eval --progress --colors --content-base build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AveSore/webpack-react-language.git"
+  },
+  "author": "W.mf",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AveSore/webpack-react-language/issues"
+  },
+  "homepage": "https://github.com/AveSore/webpack-react-language#readme",
+  "devDependencies": {
+    "babel-core": "^6.21.0",
+    "babel-loader": "^6.2.10",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-react": "^6.16.0",
+    "react": "^15.4.1",
+    "react-dom": "^15.4.1",
+    "webpack": "^1.14.0",
+    "webpack-dev-server": "^1.16.2"
+  }
+}
