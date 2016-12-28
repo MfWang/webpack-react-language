@@ -1,6 +1,7 @@
 /**
  * Created by wangmengfei on 16-12-23.
  */
+var webpack = require('webpack')
 module.exports = {//注意这里是exports不是export
     devtool: 'eval-source-map',
     entry: ['webpack/hot/dev-server', __dirname + '/wap/main.js'],//唯一入口文件,__dirname是node.js中的一个全局变量，它指向当前执行脚本所在的目录
@@ -14,7 +15,10 @@ module.exports = {//注意这里是exports不是export
             {
                 test: /\.(js|jsx)$/,//一个匹配loaders所处理的文件的拓展名的正则表达式，这里用来匹配js和jsx文件（必须）
                 exclude: /node_modules/,//屏蔽不需要处理的文件（文件夹）（可选）
-                loader: 'babel'//loader的名称（必须）
+                loader: 'babel',//loader的名称（必须）
+                query: {
+                    presets: ['es2015', 'react']
+                }
             }
         ]
     },
