@@ -1,0 +1,16 @@
+/*! This file is created by W、MF */
+body {
+  background: #fff;
+  margin: 0;
+  padding: 0; }
+
+.header-nav {
+  background: #000;
+  height: 30px; }
+  .header-nav a, .header-nav a:link, .header-nav a:visited, .header-nav a:hover, .header-nav a:active {
+    color: #fff;
+    display: inline-block;
+    line-height: 30px;
+    text-decoration: none;
+    outline: none;
+    margin-right: 20px; }
