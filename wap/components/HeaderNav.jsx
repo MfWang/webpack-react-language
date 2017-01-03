@@ -1,5 +1,6 @@
 import React from 'react';
 import '../sass/header-nav.scss'
+import '../less/header-nav.less'
 
 var headerNavLink = [
     {

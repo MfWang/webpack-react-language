@@ -2,22 +2,23 @@
  * Created by wangmengfei on 16-12-23.
  */
 var webpack = require('webpack')
+var path = require("path")
 
 //css样式从js文件中分离出来
 var ExtractTextPlugin = require('extract-text-webpack-plugin');
+
 //postcss-loader 需要的配置项
 var precss       = require('precss');
 var autoprefixer = require('autoprefixer');
 module.exports = {//注意这里是exports不是export
     devtool: 'eval-source-map',
-    entry: ['webpack/hot/dev-server', __dirname + '/wap/main.js'],//唯一入口文件,__dirname是node.js中的一个全局变量，它指向当前执行脚本所在的目录
+    entry: ['webpack/hot/dev-server', path.join(__dirname, '/wap/main.js')],//唯一入口文件,__dirname是node.js中的一个全局变量，它指向当前执行脚本所在的目录
     output: {//输出目录
-        path: __dirname + "/build",//打包后的js文件存放的地方
+        path: path.join(__dirname, "/build"),//打包后的js文件存放的地方
         //filename: "[name]-[hash].js"//打包后的js文件名
         filename: "bundle.js"//打包后的js文件名
     },
     module: {
-        //loaders加载器
         loaders: [
             {
                 test: /\.(js|jsx)$/,
@@ -28,32 +29,48 @@ module.exports = {//注意这里是exports不是export
             //解析.scss文件,对于用 import 或 require 引入的sass文件进行加载，以及<style lang="sass">...</style>声明的内部样式进行加载
             {
                 test: /\.(scss|sass)/,
-                loader: ExtractTextPlugin.extract("style", 'css!postcss!sass') //这里用了样式分离出来的插件，如果不想分离出来，可以直接这样写 loader:'style!css!sass'
-            }
-            //解析.css文件
-            /*{
-                test: /\.css$/,
-                loader: ExtractTextPlugin.extract("style", 'css')
-            },*/
-            /*{test: /\.css$/,loader: 'style!css?modules'}*/
-            /*{test: /\.css$/,    loader: 'style!css!autoprefixer'},*/
-            /*{test: /\.json$/,loader: "json"},
+                exclude: /node_modules/,
+                loader: ExtractTextPlugin.extract("style", 'css!sass') //这里用了样式分离出来的插件，如果不想分离出来，可以直接这样写
+                /*loader:'style!css!sass'*/
+            },
+            {
+                test: /\.less/,
+                exclude: /node_modules/,
+                loader: ExtractTextPlugin.extract("style", 'css!less') //这里用了样式分离出来的插件，如果不想分离出来，可以直接这样写
+                /*loader:'style!css!less'*/
+            },
+            {test: /\.json$/,loader: "json"},
             {test: /\.coffee$/, loader: 'coffee'},
             {test: /\.html$/,   loader: 'html'},
-            { test: /\.(png|jpg)$/, loader: 'url-loader?limit=8192'},
+            { test: /\.(png|jpg)$/, loader: 'url?limit=8192'},
             {test: /\.woff$/,   loader: "url?limit=10000&minetype=application/font-woff"},
             {test: /\.ttf$/,    loader: "file"},
             {test: /\.eot$/,    loader: "file"},
-            {test: /\.svg$/,    loader: "file"}*/
+            {test: /\.svg$/,    loader: "file"}
         ]
     },
+    plugins: [
+        // 下面这一行可以在Bundle.js中第一行看到
+        new webpack.BannerPlugin('This file is created by W、MF'),
+        new webpack.optimize.CommonsChunkPlugin('common.js'),
+        new webpack.HotModuleReplacementPlugin(),//热模块替换插件
+        new ExtractTextPlugin("style.css") //提取出来的样式放在style.css文件中
+
+    ],
     postcss: function () {
         return [precss, autoprefixer];
     },
-    plugins: [
-        new webpack.HotModuleReplacementPlugin(),//热模块替换插件
-        new ExtractTextPlugin("style.css") //提取出来的样式放在style.css文件中
-    ],
+    resolve: {
+        alias: {
+            js: path.join(__dirname, "build/scripts"),
+            src: path.join(__dirname, "build/scripts"),
+            styles: path.join(__dirname, "build/styles"),
+            img: path.join(__dirname, "build/img")
+        },
+        root: [
+            path.join(__dirname, "bower_components")
+        ]
+    },
     //webpack-dev-server配置
     devServer: {
         contentBase: './build',//默认webpack-dev-server会为根文件夹提供本地服务器，如果想为另外一个目录下的文件提供本地服务器，应该在这里设置其所在目录（本例设置到"build"目录）
