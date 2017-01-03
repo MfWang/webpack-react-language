@@ -1,3 +1,65 @@
+/* scss源文件 */
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+html {
+  box-sizing: border-box;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+body {
+  margin: 0;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+/* 该注释会并保留到编译后的文件中 */
+// 该注释只会保留在scss源文件中
+/*!
+  重要注释！
+  即使是压缩模式编译，也会保留这行注释，通常可以用于声明版权信息。
+*/
+$marin:16px;
+$white:#ffffff;
+$fontSize:16px;
+$side:left;
+@mixin left {
+  float: left;
+  margin-left: 10px;
+}
+@mixin rounded($vert, $horz, $radius: 10px) {
+  border-#{$vert}-#{$horz}-radius: $radius;
+  -moz-border-radius-#{$vert}#{$horz}: $radius;
+  -webkit-border-#{$vert}-#{$horz}-radius: $radius;
+}
 html, body{
-  background: #dfdfdf;
+  h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 0;
+    font-size: $fontSize;
+  }
+  .clear{
+    clear: both;
+  }
+  a{
+    @extend .clear;
+    color: red;
+    border-#{$side}-radius: 5px;
+  }
+  a,a:link{
+    text-decoration: none;
+    outline: none;
+  }
+  span{
+    @include left;
+    @include rounded(top, left);
+    @include rounded(top, left, 5px);
+  }
+  p {
+    @if 1 + 1 == 2 { border: 1px solid; }
+    @if 5 < 3 { border: 2px dotted; }
+    @if lightness($color) > 30% {
+      background-color: #000;
+    } @else {
+      background-color: #fff;
+    }
+  }
 }

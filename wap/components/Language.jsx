@@ -10,7 +10,11 @@ import * as constantsEn from './en_US';
 var ComponentLanguage = React.createClass({
     render: function () {
         return (
-            <p>lang:{this.props.locales}...{constantsEn.params.hello}</p>
+            <div>
+                <p>lang: <label>{this.props.locales}</label></p>
+                <p>test: <label>{this.props.test}</label></p>
+                <p>hello: <label>{constantsEn.params.hello}</label></p>
+            </div>
         );
     }
 });

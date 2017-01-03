@@ -1,0 +1,10 @@
+.header-nav{
+  background: #000;
+  a{
+    &,&:link,&:visited,&:hover,&:active{
+      color: #fff;
+      text-decoration: none;
+      outline: none;
+    }
+  }
+}
