@@ -52,7 +52,7 @@ module.exports = {//注意这里是exports不是export
     plugins: [
         // 下面这一行可以在Bundle.js中第一行看到
         new webpack.BannerPlugin('This file is created by W、MF'),
-        new webpack.optimize.CommonsChunkPlugin('common.js'),
+        // new webpack.optimize.CommonsChunkPlugin('common.js'),
         new webpack.HotModuleReplacementPlugin(),//热模块替换插件
         new ExtractTextPlugin("style.css") //提取出来的样式放在style.css文件中
 
