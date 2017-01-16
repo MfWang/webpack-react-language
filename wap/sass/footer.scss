@@ -1,0 +1,134 @@
+@import "common";
+.footer-bar{
+  border-top: 1px solid #d8d8d8;
+  .footer-nav{
+    border-bottom: 1px solid #d8d8d8;
+    line-height: 1rem;
+    font-size: .32rem;
+    .nav-name{
+      transition: all 1s;
+      padding: 0 .34rem 0 .32rem;
+      i{
+        float: right;
+        transition: all 1s;
+      }
+    }
+  }
+  .footer-sidenav-li{
+    a{
+      color: rgba(0,0,0,0.2);
+    }
+    opacity: 0;
+    height: 0;
+    padding: 0 .34rem 0 .32rem;
+    border-top: 1px solid #d8d8d8;
+    line-height: 1rem;
+    font-size: .3rem;
+    transition: all 1s;
+  }
+  .footer-nav--active{
+    .nav-name{
+      color: rgba(0,0,0,0.2);
+      i{
+        transform:rotate(180deg);
+        color: rgba(0,0,0,0.2);
+      }
+    }
+    @extend .footer-nav;
+    .footer-sidenav-li{
+      opacity: 1;
+      height: 1rem;
+    }
+  }
+  .contact{
+    padding-bottom: .15rem;
+    font-size: .28rem;
+    color: rgba(0,0,0,0.54);
+    border-bottom: 1px solid #d8d8d8;
+    h3{
+      color: rgba(0,0,0,0.87);
+      font-size: .4rem;
+      line-height: 1rem;
+      padding: 0 .34rem 0 .32rem;
+      i{
+        margin-right: .13rem;
+      }
+    }
+    p{
+      padding: 0 .34rem 0 .32rem;
+    }
+  }
+  .copyright{
+    font-size: .24rem;
+    color: rgba(0,0,0,0.87);
+    p{
+      line-height: .5rem;
+      padding: 0 .34rem 0 .32rem;
+    }
+    span{
+      color: rgba(0,0,0,0.54);
+      padding-right: .2rem;
+      margin-right: .2rem;
+      display: inline-block;
+      border-right: 1px solid #d8d8d8;
+      .active{
+        color: #81AE15;
+      }
+    }
+  }
+  .lang-change{
+    cursor: pointer;
+    position: relative;
+    width: .8rem;
+    height: .42rem;
+    line-height: .42rem;
+    margin-top: -0.5rem;
+    margin-right: .34rem;
+    float: right;
+    border: 1px solid transparent;
+    &.border{
+      border-color: rgba(0,0,0,0.12);
+    }
+    .lang-show{
+      width: .8rem;
+      height: .42rem;
+      cursor: pointer;
+      text-align: right;
+    }
+    .flag-zh{
+      background: url('../img/footer/chinese.png') no-repeat;
+      background-position: center left;
+    }
+    .flag-en {
+      background: url('../img/footer/english.png') no-repeat;
+      background-position: center left;
+    }
+    .show{
+      display: block;
+    }
+    .hide{
+      display: none;
+    }
+    ul{
+      width: .8rem;
+      height: .42rem;
+      line-height: .42rem;
+      padding: 0;
+      margin: 0;
+      border: 1px solid rgba(0,0,0,0.12);
+      border-bottom: none;
+      position: absolute;
+      bottom: 44px;
+      left: -1px;
+      li{
+        cursor: pointer;
+        width: .8rem;
+        height: .42rem;
+        padding-left: 50px;
+        &.selected{
+          display: none;
+        }
+      }
+    }
+  }
+}

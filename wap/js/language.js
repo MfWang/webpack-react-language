@@ -38,7 +38,7 @@ ReactDom.render(
 /**
  * 头部导航
  * */
-import Header from '../components/HeaderNav.jsx';
+import Header from '../bongmi/HeaderNav.jsx';
 ReactDom.render(
     <Header />,
     document.getElementById('header-nav')

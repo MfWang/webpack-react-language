@@ -1,0 +1,1754 @@
+{
+  "config": {
+    "system": {
+      "lang": "en",
+      "domain": "https://www.en.bongmi.com",
+      "price": "$"
+    },
+    "meta": {
+      "keywords": "Femometer, Bongmi Inc, smart thermometer, basal temperature thermometer, basal body temperature tracker, BBT tracker, menstrual cycle tracker, ovulation tracker, smart basal thermometer, smart fertility tracker, thermometer, BBT chart, fertility chart, getting pregnant, avoid pregnancy, early pregnancy test, early-stage pregnancy monitoring, period tracker, data stored in cloud, automatic sync, pregnancy rate calculator, menstrual cycle.",
+      "desc": "Bongmi is a startup company with the mission statement of providing intelligent health solutions for family through data collection. We envision a world where mobile internet as its convenience and interaction, plays an important role in improving people’s health status. Currently, we mainly focus on women’s reproductive and children’s general health. Located in China, we are a group of people equipped with enthusiasm and profession, as well as the willing to do a big thing."
+    },
+    "hrEmail": "hr@bongmi.com",
+    "supportEmail": "support@bongmi.com",
+    "helpEmail": "help@bongmi.com",
+    "businessEmail": "business@bongmi.com",
+    "serviceTel": "(+86) 400-1068-321",
+    "contactTel": "(+86) 0571-56560756",
+    "company": "Bongmi Inc.",
+    "address": "Floor 12, 92 Yueda Street, Binjiang District, Hangzhou, China",
+    "zipCode": "310051"
+  },
+  "route": {
+    "home": "/en/index.html",
+    "femometer": "/en/femometer/index.html",
+    "femometerApp": "/en/femometer/app.html",
+    "mall": "/en/mall/index.html",
+    "blog": "/en/blog.html",
+    "aboutCompany": "/en/about/company.html",
+    "aboutCareer": "/en/about/career.html",
+    "aboutEvents": "/en/about/events.html",
+    "aboutContact": "/en/about/contact.html",
+    "aboutFAQs": "/en/about/faqs.html",
+    "aboutPrivacy": "/en/about/privacy.html",
+    "aboutTerms": "/en/about/terms.html",
+    "aboutFeedback": "/en/about/feedback.html",
+    "aboutICP": "/en/about/icp.html",
+    "mallDetail": "/en/mall/detail.html",
+    "mallOrder": "/en/mall/order/create.html",
+    "mallPayment": "/en/mall/order/payment.html",
+    "mallCart": "/en/mall/shoppinglist.html",
+    "mallPaySuccess":"/en/mall/order/success.html",
+    "accountLogin": "/en/account/login.html",
+    "accountSignup": "/en/account/signup.html",
+    "accountReset": "/en/account/resetpwd.html",
+    "accountProfile": "/en/account/profile.html",
+    "accountAddress": "/en/account/address.html",
+    "accountOrder": "/en/account/order/index.html",
+    "accountOrderDetail": "/en/account/order/detail.html",
+    "accountOrderCancel": "/en/account/order/cancel.html",
+    "accountOrderReChange": "/en/account/order/rechange.html"
+  },
+  "pages": {
+    "home": {
+      "meta": {
+        "title": "Home | Femometer - Smart Fertility Tracker",
+        "keywords": "Femometer, smart fertility tracker, digital thermometer, basal thermometer, get pregnant easier, avoid pregnancy naturally, ovulation prediction, menstrual cycle management",
+        "desc": "A basal thermometer intelligently helps you to get pregnant faster, avoid pregnancy naturally and better understand your monthly cycle."
+      },
+      "title": "Smart Fertility Tracker",
+      "desc": "A basal thermometer intelligently helps you to get pregnant faster, avoid pregnancy naturally and understand your monthly cycle better.",
+      "video": "Intro Video",
+      "buy":"Buy now",
+      "prods": ["Know the Product","Download the App","Learn More"]
+    },
+    "femometer": {
+      "index": {
+        "meta": {
+          "title": "Femometer | Smart Fertility Tracker",
+          "keywords": "Get pregnant faster, avoid pregnancy naturally, better understand your monthly cycle.",
+          "desc": ""
+        },
+        "f1": {
+          "title": "Smart Fertility Tracker",
+          "desc": "A basal thermometer intelligently helps you to get pregnant faster, avoid pregnancy naturally and understand your monthly cycle better.",
+          "video": "Watch the Intro Video",
+          "download": "Download the App"
+        },
+        "f2": {
+          "title": "Accurate and Convenient",
+          "desc": "Auto on and off. Golden ratio and ergonomical design make it gorgeous and user-friendly.",
+          "btn1": "No Screen and Button",
+          "btn2": "Golden Ratio",
+          "btn3": "Ergonomics"
+        },
+        "f3": {
+          "title": "All For Your Health",
+          "desc": "Accurately predicts period, fertile and infertile days, monitors progesterone status.",
+          "btn": [
+            {
+              "title": "Get Pregnant",
+              "desc": "Accurately predicts ovulation days to increase the chance of getting pregnant"
+            },
+            {
+              "title": "Avoid Pregnancy",
+              "desc": "Accurately predicts infertile days to avoid pregnancy naturally"
+            },
+            {
+              "title": "Monitor Early-stage Pregnancy",
+              "desc": "Monitors progesterone and pregnancy status"
+            },
+            {
+              "title": "Track Period",
+              "desc": "Efficiently keeps track of period and provides personalized help"
+            }
+          ]
+        },
+        "f4": {
+          "title": "Automatic Syncs",
+          "desc": "Basal Body Temperature (BBT) is automatically uploaded to your phone via Bluetooth."
+        },
+        "f5": {
+          "title": "High Accuracy",
+          "title2": "±0.09&#8457;",
+          "desc": "The cutting-edge technology helps to measure tiny changes in your body temperature and translate them into interpretable data."
+        },
+        "f6": {
+          "title": "Gorgeous Colors",
+          "desc": "Five gorgeous colors to choose from: Pink, White, Purple, Rose Gold, and Blue. Never stop the pursuit of perfection.",
+          "color":{
+            "white":"White",
+            "blue":"Blue",
+            "pink":"Pink",
+            "purple":"Purple",
+            "gold":"Rose Gold"
+          }
+        },
+        "f7": {
+          "title": "Convenient",
+          "desc": "Femometer app automatically syncs BBT data and draws a chart.",
+          "step": [
+            {
+              "title": "Step 1. Set the Alarm",
+              "desc": "The beeps of Femometer reminds you to take BBT. "
+            },
+            {
+              "title": "Step 2. Measure Your BBT",
+              "desc": "Uncap Femometer and put it under your tongue. Three beeps means BBT is taken successfully."
+            },
+            {
+              "title": "Step 3. Read the Data",
+              "desc": "BBT automatically syncs. Menstrual cycle data is easy to read on your phone."
+            }
+          ]
+        },
+        "f8": {
+          "title": "Product Details",
+          "desc": "Fine materials and top-notch processing techniques bring up the perfect Femometer."
+        }
+      },
+      "app": {
+        "meta": {
+          "title": "App | Smart Fertility Tracker",
+          "keywords": "iOS download, Android download",
+          "desc": ""
+        },
+        "title": "Download the App",
+        "ios": "iOS",
+        "android": "Android",
+        "code":"Or scan the QR code to download.",
+        "content": [
+          {
+            "title": "Intelligently Calculates Pregnancy Rate",
+            "desc": "Pregnancy rates of 7 days help you to schedule your sexual activity."
+          },
+          {
+            "title": "Daily Record",
+            "desc": "Keeps track of other information such as period start, cervical fluid, sex, ovulation test, sleep, emotion, weight, medication, etc."
+          },
+          {
+            "title": "Basal Body Temperature Chart",
+            "desc": "The BBT Chart is automatically generated based on your daily measurement."
+          },
+          {
+            "title": "Data Stored in the Cloud",
+            "desc": "With data stored in the cloud, you don't have to worry about data loss."
+          },
+          {
+            "title": "Intelligent Analysis",
+            "desc": "Accurately predicts period, fertile, and infertile days. More data means higher accuracy."
+          },
+          {
+            "title": "Automatic Syncs via Bluetooth",
+            "desc": "BBT is automatically uploaded to your phone via Bluetooth. Please turn on Bluetooth while taking BBT."
+          },
+          {
+            "title": "Monthly Calendar",
+            "desc": "A clear display of ovulation, fertile and infertile days, as well as daily notes recorded."
+          }
+        ]
+      },
+      "nav":{
+        "navTitle":"Femometer",
+        "overview":"Overview",
+        "app":"Application",
+        "buy":"Buy"
+      }
+    },
+    "blog": {
+      "meta": {
+        "title": "Wiki | Smart Fertility Tracker",
+        "keywords": "Professional knowledge platform of TTC, pregnancy, natural birth control and menstrual cycle.",
+        "desc": ""
+      },
+      "search": "Search by tags, keywords",
+      "hot": "Top Articles"
+    },
+    "mall": {
+      "index": {
+        "meta": {
+          "title": "Mall | Smart Fertility Tracker",
+          "keywords": "Order online, free shipping in USA on orders over $49",
+          "desc": ""
+        },
+        "wait": "Coming soon…"
+      },
+      "detail": {
+        "meta": {
+          "title": "Product detail page | Smart Fertility Tracker",
+          "keywords": "",
+          "desc": ""
+        },
+        "color": "Color",
+        "specifications": "Specification",
+        "attribute":"Attribute",
+        "quantity": "Quantity",
+        "promotion": "Sale",
+        "original": "Original",
+        "button": {
+          "buy": "Buy now",
+          "add": "Add to cart"
+        },
+        "noGoods":"Can not find this item",
+        "backToMall":"Back to shopping"
+      },
+      "order": {
+        "meta": {
+          "title": "Complete the order | Smart Fertility Tracker",
+          "keywords": "",
+          "desc": ""
+        },
+        "back": "Back to cart",
+        "noGoods":"Your cart is empty",
+        "backToMall":"Shop now",
+        "orderFail":"Error, please try again later.",
+        "emailReceive":"You'll receive receipts and notifications at this email address."
+      },
+      "payment": {
+        "meta": {
+          "title": "Payment | Smart Fertility Tracker",
+          "keywords": "",
+          "desc": ""
+        },
+        "title": "Payment method",
+        "orderInfo": {
+          "title": "Order information",
+          "number": "Order number",
+          "successInfo": "Order submitted successfully",
+          "hint": {
+            "pay": "Please complete the payment in ",
+            "payCancel":" , otherwise the order will be cancelled automatically.",
+            "send": "Your order will be fullfilled within 24 hours."
+          }
+        },
+        "noGoods":"Can not find this order",
+        "backToMall":"Back to shopping",
+        "payLinkFail":"Failed",
+        "orderCurrencyError":"Please use the right currency when checkout",
+        "orderPayed":"Payment completed",
+        "orderCompleted":"Order completed",
+        "orderClosed":"Order closed",
+        "orderReChange":"Order in return/exchange",
+        "orderTimed":"Order closed due to expiration",
+        "backToOrder":"Back to order",
+        "backToMyOrder":"Back to my order",
+        "payMethod":" Please select payment method",
+        "payLink":"Directing to payment...",
+        "weChat":"Scan WeChat QR code to pay",
+        "paySuccess":"Success",
+        "payFail":"Failed",
+        "payTitle":"Payment",
+        "openTarget":"Please complete the payment in the new page. Do not close the page until payment is completed.",
+        "payCompleted":"Payment completed",
+        "choosePayMethod":"Other payment methods",
+        "USAPayment":{
+          "card":"Please verify card number",
+          "date":"Please verify valid dates",
+          "captcha":"Please verify security code",
+          "addressSame":"* Same with shipping address"
+        }
+      },
+      "paymentResult": {
+        "success": {
+          "title": "Payment completed",
+          "text": "You will be notified with order information through text message or email.",
+          "linkText": "Back to shopping"
+        }
+      },
+      "shoppinglist": {
+        "meta": {
+          "title": "Shopping Cart | Smart Fertility Tracker",
+          "keywords": "",
+          "desc": ""
+        },
+        "title": "Shopping Cart",
+        "cartEmpty": "Your cart is empty...",
+        "shopping": "Shop now",
+        "selectAll": "Select all",
+        "deleteSelected": "Delete",
+        "sum": "<span id=\"list_total_count\">-</span> in total,<span id=\"list_checked_count\">-</span> selected.",
+        "MonetaryUnit":"Different monetary units",
+        "deleteTitle":"Delete",
+        "selectGoods":"Please select items first",
+        "deleteGoods":"Sure to delete the item?"
+      },
+      "processBar": {
+        "step1": "Shopping cart",
+        "step2": "Complete the order",
+        "step3": "Complete the payment"
+      },
+      "server": {
+        "server1": "Free shipping on orders over&nbsp;<label>$30</label>",
+        "server2": "Free return within&nbsp;<label>7</label>&nbsp;days",
+        "server3": "<label>1</label>&nbsp;year warranty"
+      }
+    },
+    "about": {
+      "company": {
+        "meta": {
+          "title": "Company | Smart Fertility Tracker",
+          "keywords": "",
+          "desc": ""
+        },
+        "desc": "Bongmi is a startup company with the mission statement of providing intelligent health solutions for family through data collection. We envision a world where mobile internet as its convenience and interaction, plays an important role in improving people’s health status. Currently, we mainly focus on women’s reproductive and children’s general health. Located in China, we are a group of people equipped with enthusiasm and profession, as well as the willing to do a big thing.",
+        "team": "Our team",
+        "member": [
+          {
+            "name": "Adam Lou",
+            "job": "CEO",
+            "id": "1"
+          },
+          {
+            "name": "Zesheng Wu",
+            "job": "CTO",
+            "id": "2"
+          },
+          {
+            "name": "Junjie Wang",
+            "job": "Client Development Director",
+            "id": "3"
+          },
+          {
+            "name": "Huabiao Shan",
+            "job": "Design Director",
+            "id": "4"
+          },
+          {
+            "name": "Feng Xie",
+            "job": "Server Development Director",
+            "id": "12"
+          },
+          {
+            "name": "Bo Chen",
+            "job": "Hardware Development Director",
+            "id": "10"
+          },
+          {
+            "name": "Miaoyong Lin",
+            "job": "Embedded Software Engineer",
+            "id": "5"
+          },
+          {
+            "name": "Xinzhen Yang",
+            "job": "Financial Manager",
+            "id": "6"
+          },
+          {
+            "name": "Heyuan Zhan",
+            "job": "Designer",
+            "id": "7"
+          },
+          {
+            "name": "Guoliang Zhang",
+            "job": "Quality Management Manager",
+            "id": "8"
+          },
+          {
+            "name": "Snow Li",
+            "job": "US Branch Manager",
+            "id": "9"
+          },
+          {
+            "name": "Yike Wu",
+            "job": "iOS Engineer",
+            "id": "15"
+          },
+          {
+            "name": "Hao Jiang",
+            "job": "Android Engineer",
+            "id": "16"
+          },
+          {
+            "name": "Wei Xia",
+            "job": "Social Media Specialist",
+            "id": "18"
+          },
+          {
+            "name": "Juan Zha",
+            "job": "E-commerce Specialist",
+            "id": "20"
+          },
+          {
+            "name": "Minghui Su",
+            "job": "QA Engineer",
+            "id": "22"
+          },
+          {
+            "name": "Yuan Wang",
+            "job": "Human Resource Manager",
+            "id": "24"
+          },
+          {
+            "name": "Hui Shu",
+            "job": "E-commerce Specialist",
+            "id": "25"
+          },
+          {
+            "name": "Chisong Lai",
+            "job": "Server Engineer",
+            "id": "26"
+          },
+          {
+            "name": "Shisi Zhang",
+            "job": "Product Operation Manager",
+            "id": "27"
+          },
+          {
+            "name": "Qiang Shu",
+            "job": "iOS Engineer",
+            "id": "28"
+          },
+          {
+            "name": "Yushan Li",
+            "job": "Social Media Specialist",
+            "id": "29"
+          },
+          {
+            "name": "Mengfei Wang",
+            "job": "Web Engineer",
+            "id": "31"
+          },
+          {
+            "name": "Jun Zhou",
+            "job": "Android Engineer",
+            "id": "33"
+          },
+          {
+            "name": "Haosheng Shan",
+            "job": "Server Engineer",
+            "id": "13"
+          }
+        ]
+      },
+      "career": {
+        "meta": {
+          "title": "招贤纳士 | Smart Fertility Tracker",
+          "keywords": "",
+          "desc": ""
+        },
+        "breadScrum": [
+          "联系我们",
+          "招贤纳士"
+        ],
+        "title": "简历投至HR信箱",
+        "recruitment": "招聘职位",
+        "publishTime": "发布时间",
+        "jobs": [
+          {
+            "name": "测试工程师",
+            "time": "2016-03-09",
+            "linkId": "#12"
+          },
+          {
+            "name": "人事/HR",
+            "time": "2016-03-09",
+            "linkId": "#13"
+          },
+          {
+            "name": "Web前端开发工程师",
+            "time": "2016-03-09",
+            "linkId": "#1"
+          },
+          {
+            "name": "iOS客户端开发工程师",
+            "time": "2016-03-09",
+            "linkId": "#2"
+          },
+          {
+            "name": "Java服务器开发工程师",
+            "time": "2016-03-09",
+            "linkId": "#3"
+          },
+          {
+            "name": "数据挖掘工程师",
+            "time": "2016-03-09",
+            "linkId": "#4"
+          },
+          {
+            "name": "嵌入式开发工程师",
+            "time": "2016-03-09",
+            "linkId": "#5"
+          },
+          {
+            "name": "行政专员",
+            "time": "2016-03-09",
+            "linkId": "#6"
+          },
+          {
+            "name": "硬件开发工程师",
+            "time": "2016-03-09",
+            "linkId": "#7"
+          },
+          {
+            "name": "Android开发工程师",
+            "time": "2016-03-09",
+            "linkId": "#8"
+          },
+          {
+            "name": "产品经理",
+            "time": "2016-03-09",
+            "linkId": "#10"
+          },
+          {
+            "name": "新媒体运营",
+            "time": "2016-03-09",
+            "linkId": "#11"
+          },
+          {
+            "name": "品牌公关",
+            "time": "2016-03-09",
+            "linkId": "#14"
+          },
+          {
+            "name": "市场推广",
+            "time": "2016-03-09",
+            "linkId": "#15"
+          },
+          {
+            "name": "产品运营",
+            "time": "2016-03-09",
+            "linkId": "#16"
+          },
+          {
+            "name": "客服",
+            "time": "2016-03-09",
+            "linkId": "#17"
+          }
+        ],
+        "jobDetails": [
+          {
+            "name": "Web前端开发工程师",
+            "id": "1",
+            "shortDesc": "15k-30k 杭州 经验1-3年 本科及以上 全职",
+            "jobDesc": "职位描述：",
+            "jobDescLists": [
+              "1. 本科及以上学历,1年以上前端开发经验,具有扎实的计算机基础知识",
+              "2. 熟悉W3C标准及规范,熟悉HTML5、CSS3、XHTML、DIV、CSS、JavaScript等页面技术",
+              "3. 熟悉各类JS框架",
+              "4. 能熟练高效手工编写HTML、CSS及JS代码,熟悉PC和移动端的web适配",
+              "5. 熟悉面向对象的软件设计方法",
+              "6. 了解基本算法和数据结构",
+              "7. 能够顶住比大的工作压力,能够与团队成员融洽相处"
+            ],
+            "requirement": "任职条件",
+            "requirementLists": [
+              "负责公司官网pc端和移动APP部分html页面的开发,负责公司微信公众号开发"
+            ]
+          },
+          {
+            "name": "iOS客户端开发工程师",
+            "id": "2",
+            "shortDesc": "15k-30k 经验1-3年 本科及以上",
+            "jobDesc": "职位描述：",
+            "jobDescLists": [
+              "1. 1年以上成熟的IOS应用开发经验,具有扎实的Objective C/Java语言基础,具有一定的英文阅读能力",
+              "2. 熟悉IOS开发技术,包括UI、网络等方面",
+              "3. 熟悉IOS开发工具和相关开发测试工具的使用",
+              "4. 熟悉各个不同版本IOS特点以及API支持情况",
+              "5. 开发基础良好,理解设计模式,在项目或产品中有很好的设计实践",
+              "6. 思路清晰,善于思考,具有良好的分析和独立解决问题的能力",
+              "7. 对新技术持有敏感性,愿意致力于新技术的探索和研究",
+              "8. 熟悉（html,div,css,js）"
+            ],
+            "requirement": "任职条件",
+            "requirementLists": []
+          },
+          {
+            "name": "Java服务器开发工程师",
+            "id": "3",
+            "shortDesc": "15k-30k   经验1-3年 本科及以上",
+            "jobDesc": "职位描述：",
+            "jobDescLists": [
+              "1. 本科以上学历,计算机相关专业毕业",
+              "2. 一年以上服务器端开发经验,熟悉Linux开发环境及常用工具",
+              "3. 熟练应用Java语言进行开发,有比较扎实的C/C++基础也可",
+              "4. 熟练应用Linux Shell及常用命令,熟悉一门以上脚本语言, 比如python",
+              "5. 有扎实的计算机基础,包括操作系统、计算网络、数据结构及常用的算法等",
+              "6. 有参加过编程比赛并获得比较好的成绩的优先考虑",
+              "7. 有大公司服务器开发经验者优先考虑",
+              "8. 有大数据处理平台开发、维护经验者优先考虑"
+            ],
+            "requirement": "任职条件",
+            "requirementLists": [
+              "1. 负责开发公司的应用服务器",
+              "2. 负责开发、维护公司的大数据处理平台"
+            ]
+          },
+          {
+            "name": "数据挖掘工程师",
+            "id": "4",
+            "shortDesc": "15k-30k 经验3-5年 本科及以上",
+            "jobDesc": "职位描述：",
+            "jobDescLists": [
+              "1. 本科以上学历,计算机相关专业毕业",
+              "2. 有扎实的数据挖掘理论基础,有数据挖掘实践经验",
+              "3. 有扎实的计算机基础,包括操作系统、计算机网络、数据结构和算法",
+              "4. 会一门以上自己比较擅长的编程语言,比如C/C++/Java/Python等",
+              "5. 有大公司数据挖掘经验者优先考虑",
+              "6. 在数据挖掘领域有较高学术造诣者优先考虑"
+            ],
+            "requirement": "任职条件",
+            "requirementLists": [
+              "1. 分析和挖掘公司的人体健康大数据,构建人体健康画像",
+              "2. 基于公司健康大数据,做个性化推荐"
+            ]
+          },
+          {
+            "name": "嵌入式开发工程师",
+            "id": "5",
+            "shortDesc": "10k-20k 经验1-3年 本科及以上",
+            "jobDesc": "职位描述：",
+            "jobDescLists": [
+              "1. 本科及以上学历,两年以上相关行业从业经验",
+              "2. 有良好的C语言基础,能够快速学习新的Soc的SDK,并利用其开发相关应用",
+              "3. 熟悉蓝牙、wifi等常见的无线通信协议,有做过低功耗蓝牙产品经验者优先",
+              "4. 英文阅读能力良好,能快速学习新的硬件设备的SPEC文档",
+              "5. 能够顶住比较大的工作压力,能够跟团队成员融洽相处"
+            ],
+            "requirement": "任职条件",
+            "requirementLists": [
+              "负责公司智能硬件产品的研发"
+            ]
+          },
+          {
+            "name": "行政专员",
+            "id": "6",
+            "shortDesc": "8k-15k  经验1-3年 本科及以上",
+            "jobDesc": "职位描述：",
+            "jobDescLists": [
+              "1. 人力资源或行政管理相关专业本科以上学历",
+              "2. 两年以上行政工作经验,熟悉企业的行政日常管理工作流程",
+              "3. 工作细致、认真、有责任心,一定的文字撰写能力,较强的沟通协调以及语言表达能力",
+              "4. 具有良好的组织协调、外联公关和实际解决问题能力",
+              "5. 责任心强,细致主动,活泼开朗、有执行力",
+              "6. 为人正直,工作认真,态度端正",
+              "7. 普通话标准,表达能力强,善于沟通交流,有亲和力,很强的服务意识",
+              "8. 熟练的电脑操作,熟悉word/excel等办公应用软件",
+              "9. 形象气质佳,有行政工作经验优先"
+            ],
+            "requirement": "任职条件",
+            "requirementLists": [
+              "负责公司行政、人力相关的所有工作"
+            ]
+          },
+          {
+            "name": "硬件开发工程师",
+            "id": "7",
+            "shortDesc": "8k-16k  经验1-3年 本科及以上",
+            "jobDesc": "职位描述：",
+            "jobDescLists": [
+              "1. 电子信息等相关专业本科以上学历",
+              "2. 熟练使用Cadence/PowerPCB/Protel等开发工具进行原理图、PCB设计,有4层板以上PCB布板经验",
+              "3. 熟悉常用电子元器件的选型及使用",
+              "4. 熟悉单片机及外围电路的设计",
+              "5. 熟悉一种以上ARM/DSP或其他嵌入式处理器产品硬件设计",
+              "6. 熟悉模拟、高频电路,有无线通讯（ZIGBEE、WIFI、RF、GSM）开发经验；",
+              "7. 熟悉电子产品的制作工艺",
+              "8. 工作认真、仔细、有高度责任心和敬业精神,较好的专业素养,较强的动手能力,好学上进,有团队精神"
+            ],
+            "requirement": "任职条件",
+            "requirementLists": [
+              "1. 根据项目进度和任务分配,完成符合功能要求和质量标准的硬件开发产品",
+              "2. 依据产品设计说明,设计符合功能要求的逻辑设计、原理图、PCB的设计",
+              "3. 负责标准化硬件模块电路设计、器件选型、PCB生产、PCB焊接等、模块调试"
+            ]
+          },
+          {
+            "name": "Android开发工程",
+            "id": "8",
+            "shortDesc": "15k-30k   经验1-3年 本科及以上",
+            "jobDesc": "职位描述：",
+            "jobDescLists": [
+              "1. 计算机相关专业毕业,本科及以上学历,名校毕业优先",
+              "2. 有扎实的计算机专业基础,熟练掌握操作系统、计算机网络、数据结构、算法等",
+              "3. 有1年以上Android开发经验,有大互联网公司工作经验优先",
+              "4. 乐于并善于沟通,能够跟团队成员融洽相处,有比较好的团队合作精神",
+              "5. 能够承担比较大的工作压力"
+            ],
+            "requirement": "任职条件",
+            "requirementLists": []
+          },
+          {
+            "name": "产品经理",
+            "id": "10",
+            "shortDesc": "15k-25k 经验1-3年 本科及以上",
+            "jobDesc": "职位描述：",
+            "jobDescLists": [
+              "1. 关注智能硬件、大健康相关领域,对该领域有自己独道的见解",
+              "2. 有丰富的产品设计经验,对用户体验有良好的感觉",
+              "3. 本科及以上学历,2年以上大型互联网公司的工作经验",
+              "4. 具备较强的团队协作和沟通能力,善于主动学习,执行力强",
+              "5. 有智能硬件、移动APP产品开发和设计经验优先"
+            ],
+            "requirement": "任职条件",
+            "requirementLists": [
+              "负责产品需求的调研与分析,研究业界同类竞争产品及其动态,确保产品的竞争性地位；与开发负责人公同推进公司产品特性的规划与开发"
+            ]
+          },
+          {
+            "name": "新媒体运营",
+            "id": "11",
+            "shortDesc": "8k-15k  经验1-3年 本科及以上",
+            "jobDesc": "职位描述：",
+            "jobDescLists": [
+              "1. 本科及以上学历,1r年以上互联网工作经验",
+              "2. 具有独立、策划活动及执行活动工作的能力",
+              "3. 熟悉互联网产品和各类营销手段,具备项目跟进、资源协调能力,对市场动向有较高敏感度",
+              "4. 有一定文案撰写能力及较强的语言表达能力",
+              "5. 熟悉使用常用办公软件,会PS为佳",
+              "6. 有微博活动策划、社区活动策划工作者优先"
+            ],
+            "requirement": "任职条件",
+            "requirementLists": [
+              "运营公司产品的官方微博、微信,策划公司线上推广活动"
+            ]
+          },
+          {
+            "name": "测试工程师",
+            "id": "12",
+            "shortDesc": "15k-30k 经验3-5年 本科及以上",
+            "jobDesc": "职位描述：",
+            "jobDescLists": [
+              "1. 计算机相关专业毕业,本科及以上学历,名校毕业优先",
+              "2. 有扎实的计算机专业基础,从事软件测试工作1年以上工作经验",
+              "3. 能够开发自动化测试工具,会一门以上编程语言,有良好的编码习惯",
+              "4. 有大互联网公司测试相关工作工作经验优先",
+              "5. 能够跟团队成员融洽相处,有比较强的搞压能力"
+            ],
+            "requirement": "任职条件",
+            "requirementLists": []
+          },
+          {
+            "name": "人事/HR",
+            "id": "13",
+            "shortDesc": "8k-16k经验3-5年 本科及以上",
+            "jobDesc": "职位描述：",
+            "jobDescLists": [
+              "1. 大学本科以上学历,名校、HR相关专业加分",
+              "2. 三年以上HR工作经验,大互联公司背景加分",
+              "3. 对HR各模块都有经验者者优先: 招聘、人事、员工关系、薪资福利、培训等",
+              "4. 良好的沟通、协调能力",
+              "5. 能顶住比较大的工作压力",
+              "6. 能够一起做”事业“,而不只是找份养家糊口的工作"
+            ],
+            "requirement": "任职条件",
+            "requirementLists": []
+          },
+          {
+            "name": "品牌公关",
+            "id": "14",
+            "shortDesc": "8k-16k经验3-5年 本科及以上",
+            "jobDesc": "职位描述：",
+            "jobDescLists": [
+              "1. 负责公司品牌的传播管理,包括公关、活动、广告、媒介等涉及品牌的策划、宣传、推广,为公司和品牌树立良好口碑",
+              "2. 抓住热点或相关活动撰写公关稿件,进行舆情监测,有效处理危机公关事件",
+              "3. 现有媒体关系,与媒体、自媒体人保持良好沟通,拓展、维护与拜访其他媒体资源和外部关系"
+            ],
+            "requirement": "任职条件",
+            "requirementLists": [
+              "1. 3年媒体、PR、文案方面的相关工作经验",
+              "2. 了解互联网,善于挖掘企业商业模式的亮点",
+              "3. 具有丰富的媒体资源"
+            ]
+          },
+          {
+            "name": "市场推广",
+            "id": "15",
+            "shortDesc": "8k-16k经验3-5年 本科及以上",
+            "jobDesc": "职位描述：",
+            "jobDescLists": [
+              "1. 根据公司发展现状,制度市场推广策略",
+              "2. 进行重点媒体的日常维护工作和危机公关管理",
+              "3. 分析市场情况、把握市场、行业动态,对市场策略进行调整,以适应互联网市场需求"
+            ],
+            "requirement": "任职条件",
+            "requirementLists": [
+              "1. 本科以上学历,3年以上医疗或互联网市场工作经验",
+              "2.  精通互联网市场营销计划的制订及执行,具有丰富的市场推广经验,熟练运用各种推广策略,优秀的数据统计分析能力,能从市场数据中发现问题并提供解决方案",
+              "3.  对互联网行业有浓厚的兴趣,具备敏锐的市场洞察力、严密的分析能力以及出色的危机处理能力,善于学习和创新",
+              "4. 极强的工作执行力和规划能力,具备良好的沟通表达能力、谈判能力,具有丰富的业界人际资源以及媒体、合作等资源",
+              "5. 拥有良好的商业意识和战略意识,精力充沛,具有优秀的管理才能和职业操守",
+              "6. 具备良好的团队合作精神和丰富的团队建设经验,能在较大的压力下带领整个团队实现市场运营目标"
+            ]
+          },
+          {
+            "name": "产品运营",
+            "id": "16",
+            "shortDesc": "10k-20k   经验3-5年 本科及以上",
+            "jobDesc": "职位描述：",
+            "jobDescLists": [
+              "1. 分析用户需求／特征等基础上,优化用户产品／活动／激励体验流程,拉动用户活跃转化,并降低留存率",
+              "2. 整合资源／拓展运营工具,提升用户价值",
+              "3. 理解产品目标,制定运营策略,与产品／渠道共同承担业务指标",
+              "4. 管理运营项目的执行过程,拿到用户转化目标 "
+            ],
+            "requirement": "任职条件",
+            "requirementLists": [
+              "1. 3年以上工作经验",
+              "2. 有数据sense,目标导向,有极强的执行力",
+              "3. 互联网行业运营工作经验,有完整地产品运营实际案例, 熟悉内容运营, 活动策划等",
+              "4. 熟悉移动医疗行业,有极强的学习能力和学习意愿",
+              "5. 主动沟通意识强,兼具倾听与换位思考能力和文字表达能力"
+            ]
+          },
+          {
+            "name": "客服",
+            "id": "17",
+            "shortDesc": "5k-10k  经验不限 本科及以上",
+            "jobDesc": "职位描述：",
+            "jobDescLists": [
+              "1. 处理京东/天猫店铺日常在线客户咨询与售后问题",
+              "2. 接听400电话客户的问题与解答,并记录和反馈客户反映的问题",
+              "3. 日常线上订单的产品发货",
+              "4. 负责建立和维护良好的客户关系,保持客户的粘性"
+            ],
+            "requirement": "任职条件",
+            "requirementLists": [
+              "1. 本科及以上学历,一年以上客服经验",
+              "2. 具有一定的随机应变能力,表达清晰,并且有一定的逻辑思维能力",
+              "3. 有较强的责任心,适应早晚轮班,有团队合作意识",
+              "4. 有一定的客服团队管理经验者优先",
+              "5. 女性优先"
+            ]
+          }
+        ]
+      },
+      "events": {
+        "meta": {
+          "title": "Events | Smart Fertility Tracker",
+          "keywords": "",
+          "desc": ""
+        },
+        "title": "Events",
+        "lists": [
+          {
+            "year": "2016",
+            "detail": [
+              {
+                "month": "10",
+                "name": "Held annual press conference in Beijing, annouced cooperation with CWCHA, Ali Health and Zhong'an Insurance"
+              },
+              {
+                "month": "9",
+                "name": "Won the championship of 2016 China Entrepreneur Competition"
+              },
+              {
+                "month": "7",
+                "name": "Completed Series A financing"
+              },
+              {
+                "month": "3",
+                "name": "Tmall flagship store went in operation"
+              },
+              {
+                "month": "3",
+                "name": "Held the first national distributor conference"
+              },
+              {
+                "month": "1",
+                "name": "Won German iF Design Award"
+              },
+              {
+                "month": "1",
+                "name": "JD flagship store went in operation"
+              }
+            ]
+          },
+          {
+            "year": "2015",
+            "detail": [
+              {
+                "month": "12",
+                "name": "JD crowd funding reached the goal in 1 day"
+              },
+              {
+                "month": "12",
+                "name": "Released Femometer App in iOS & Android"
+              },
+              {
+                "month": "10",
+                "name": "Indiegogo crowd funding exceeded the goal within 3 days"
+              },
+              {
+                "month": "7",
+                "name": "Completed Series Pre-A financing"
+              },
+              {
+                "month": "1",
+                "name": "Bongmi Inc. founded"
+              }
+            ]
+          },
+          {
+            "year": "2014",
+            "detail": [
+              {
+                "month": "11",
+                "name": "Company founded"
+              }
+            ]
+          }
+        ]
+      },
+      "contact": {
+        "meta": {
+          "title": "Contact | Smart Fertility Tracker",
+          "keywords": "",
+          "desc": ""
+        },
+        "title": "Contact Info ",
+        "lists": ["Address:","Zip code:","Email:","Tel:"]
+      },
+      "faqs": {
+        "meta": {
+          "title": "FAQs | Smart Fertility Tracker",
+          "keywords": "",
+          "desc": ""
+        },
+        "title": "FAQs",
+        "lists": [
+          {
+            "title": "ABOUT FEMOMETER",
+            "questions": [
+              {
+                "question": "What is Femometer?",
+                "answer": "Femometer is a smart fertility tracker that is empowering women around the world by equipping them with data. The Femometer includes an intelligent tracking algorithm that learns to detect even the smallest fluctuations in your fertility cycle. With Femometer, women everywhere are empowered to understand their own bodies through data."
+              },
+              {
+                "question": "How do I use Femometer?",
+                "answer": "Using Femometer is as simple as taking your temperature in the morning. To get an accurate reading, take your temperature orally when you first wake up in the morning, before you even sit up in bed. After using Femometer, your unique temperature data is sent directly to your smartphone which will produce comprehensive and easy-to-understand charts about your health. Femometer can be set to notify you of your period, fertility window, PMS, and when it’s time to see a doctor. Join us, we’re starting a revolution of knowledgeable, empowered women just like you."
+              },
+              {
+                "question": "How does Femometer work?",
+                "answer": "Femometer’s advanced technology is hyper sensitive to capturing the slightest fluctuation in body temperature to within one hundredth of a degree. Femometer uses the information about your Basal Body Temperature to calculate your 6-day fertility window for pregnancy and also notify you of your period, fertility window, PMS, and when it’s time to see a doctor. With Femometer, you can own your reproductive health with smart data."
+              },
+              {
+                "question": "Is Femometer accurate?",
+                "answer": "Femometer uses cutting-edge technology to measure your Basal Body Temperature. Basal body temperature is your lowest, and most accurate, body temperature of the day. Femometer is sensitive enough to measure tiny changes in your body temperature and translate them into interpretable data."
+              },
+              {
+                "question": "What is the Basal Body Temperature?",
+                "answer": "Basal Body Temperature (BBT), also known as the waken body temperature, is your lowest body temperature of the day. By charting your BBT for a few months, you’ll be able to see whether there’s a pattern to your cycle, which helps predict ovulation as well as the best days to have sex. BBT charts can also help your doctor pinpoint the cause of any infertility issues."
+              },
+              {
+                "question": "How can Femometer improve my fertility tracking experience?",
+                "answer": "Femometer improves your fertility tracking experience in three different ways:<br/>Obtaining your data is as easy as taking your temperature in the morning.<br/>Femometer communicates with your smartphone to automatically keep track of your data and notifies you to important natural changes in your body.<br/>Our intelligent tracking algorithms learn to detect even the smallest fluctuations in your fertility cycle, sending you alerts."
+              },
+              {
+                "question": "What’s in the box?",
+                "answer": "One Femometer<nr/>One Lithium CR1632 battery<nr/>Quick start guide<nr/>"
+              },
+              {
+                "question": "Who is the team behind Femometer?",
+                "answer": "Our team consists of a group of energetic and forward-thinking entrepreneurs and specialists based in Hangzhou, China. We envision a world where women are able to take control of their body’s data in order to make smarter decisions. You can read more about us on our About Us page."
+              }
+            ]
+          },
+          {
+            "title": "TECHNICAL SPECS",
+            "questions": [
+              {
+                "question": "What is the uniqueness of Femometer’s technology?",
+                "answer": "Femometer uses cutting-edge technology to measure your Basal Body Temperature and is sensitive enough to measure tiny changes in your body temperature and translate them into interpretable data. You just take your temperature in the morning and Femometer will automatically sync to the app and track your your data for you."
+              },
+              {
+                "question": "What features are available with Femometer?",
+                "answer": "Femometer measures your Basal Body Temperature (BBT) and automatically syncs to your phone, tracks and predicts your cycle, and alerts you to important natural changes in your body."
+              },
+              {
+                "question": "What material is Femometer made out of?",
+                "answer": "Femometer is made of medical-grade antibacterial and nanophase materials from Japan. This allows us to make Femometer extremely durable, sterile, and lightweight."
+              },
+              {
+                "question": "Does Femometer support Bluetooth connectivity?",
+                "answer": "Yes. Femometer uses low energy bluetooth to automatically connect with your phone to sync data."
+              },
+              {
+                "question": "Is Femometer wifi-connected?",
+                "answer": "No."
+              },
+              {
+                "question": "What happens if my Bluebooth is not working?",
+                "answer": "Your data will be stored locally on the device and sent to your phone as soon as your Bluetooth connection starts working again."
+              },
+              {
+                "question": "Is Femometer safe?",
+                "answer": "Yes. Femometer is made of medical-grade antibacterial materials."
+              },
+              {
+                "question": "How accurate is the data collection?",
+                "answer": "The data collection is accurate enough to measure even the tiniest changes in your body temperature and translate them into interpretable data."
+              },
+              {
+                "question": "Can I share my data?",
+                "answer": "Yes, you can share a secure link to view your chart with someone you choose."
+              },
+              {
+                "question": "How is Femometer powered?",
+                "answer": "Femometer is powered via a Lithium CR1632 battery, which is similar to those you can find in your watch. You’ll be notified when the battery in your Femometer is running low so that you can change your battery"
+              },
+              {
+                "question": "What phones and devices will work with Femometer?",
+                "answer": "Femometer currently works with both Android and iOS smart devices to provide a comprehensive and holistic view of your body so that all women are empowered to understand their own bodies through data."
+              }
+            ]
+          },
+          {
+            "title": "SAFETY",
+            "questions": [
+              {
+                "question": "Is Femometer safe?",
+                "answer": "Good health is at the core of our company and our product. Femometer is made of medical-grade antibacterial materials from Japan and has been safely tested by over 300 women to check their Basal Body Temperature."
+              },
+              {
+                "question": "Is Femometer safe for women of any age?",
+                "answer": "Yes."
+              },
+              {
+                "question": "Will my data be secure?",
+                "answer": "Yes. All Femometer data is securely store on a private and encrypted network."
+              }
+            ]
+          },
+          {
+            "title": "SHIPPING",
+            "questions": [
+              {
+                "question": "Where does Femometer ship to?",
+                "answer": "We want to equip women all around the world with a Femometer so that they can collect data and understand their bodies. With that in mind, we work with major courier companies so that we are able to ship worldwide. Shipping costs are already included for shipment to the US. We will include $6 for shipping to the rest of the world."
+              },
+              {
+                "question": "Is the cost of shipping included?",
+                "answer": "Shipping is included to the US. For all other orders, please add $6 to your order for shipping."
+              },
+              {
+                "question": "How long does it take to ship?",
+                "answer": "It usually takes 2-3 weeks until you can get it."
+              }
+            ]
+          },
+          {
+            "title": "CUSTOMER SERVICE",
+            "questions": [
+              {
+                "question": "If I have other questions, who should I contact?",
+                "answer": "We are receiving a lot of inquiries, and are responding as fast as possible. Please contact support@femometer.com with any other questions you may have. We’re excited to hear from you and bring on the revolution to empower women to understand their own bodies through data."
+              }
+            ]
+          }
+        ]
+      },
+      "privacy": {
+        "meta": {
+          "title": "privacy | Smart Fertility Tracker",
+          "keywords": "",
+          "desc": ""
+        },
+        "title": "FEMOMETER PRIVACY POLICY",
+        "lists": [
+          "This Privacy Policy (the “Policy”) provides you with information about how we may collect, use, and share your personal information so that you may make knowledgeable choices about the information that you choose to provide to us. “Personal Information” includes information that alone or when in combination with other information may be used to readily identify, contact, or locate you.",
+          "Please note that we may update this Privacy Policy from time to time, so please check back with us periodically.",
+          "This Privacy Policy provides information regarding Femometer’s data practices, including:",
+          "1. How Femometer collects personal information",
+          "2. How Femometer uses “cookies” and related information collected automatically when you use our App or Website.",
+          "3. How Femometer uses personal information",
+          "4. What personal information, if any, Femometer may share about you",
+          "5. Security measures that Femometer employs to protect your information from accidental loss or disclosure",
+          "6. Other things you should know about privacy and Femometer"
+        ]
+      },
+      "terms": {
+        "meta": {
+          "title": "Terms | Smart Fertility Tracker",
+          "keywords": "",
+          "desc": ""
+        },
+        "title": "Terms of Service",
+        "desc": "棒糖网络科技为您提供新型的家庭医疗服务；您只有完全同意下列所有服务条款并完成注册程序,才能成为棒糖网络科技的用户并使用相应服务。您在使用棒糖网络科技提供的各项服务之前,应仔细阅读本用户协议。 您在注册程序过程中点击“确定”按钮即表示您与棒糖网络科技达成协议,完全接受本服务条款项下的全部条款。您一旦使用棒糖网络科技的服务,即视为您已了解并完全同意本服务条款各项内容,包括棒糖网络科技对服务条款随时做的任何修改。",
+        "lists": [
+          {
+            "title": "一．服务内容",
+            "desc": [
+              "棒糖网络科技的具体服务内容由棒糖网络科技根据实际情况提供,例如个人信息、个人分享信息以及评论,在线交流等。棒糖网络科技保留变更、中断或终止部分网络服务的权利。 棒糖网络科技保留根据实际情况随时调整棒糖网络科技平台提供的服务种类、形式。棒糖网络科技不承担因业务调整给用户造成的损失。"
+            ]
+          },
+          {
+            "title": "二．注册义务",
+            "desc": [
+              "为了能使用本服务,您同意以下事项：依本服务注册提示请您填写正确的注册邮箱、密码和名号,并确保今后更新的登陆邮箱、名号、头像等资料的有效性和合法性。若您提供任何违法、不道德或棒糖网络科技认为不适合在棒糖网络科技上展示的资料；或者棒糖网络科技有理由怀疑你的资料属于程序或恶意操作,棒糖网络科技有权暂停或终止您的帐号,并拒绝您于现在和未来使用本服务之全部或任何部分。",
+              "棒糖网络科技无须对任何用户的任何登记资料承担任何责任,包括但不限于鉴别、核实任何登记资料的真实性、正确性、完整性、适用性及/或是否为最新资料的责任。"
+            ]
+          },
+          {
+            "title": "三．内容使用权",
+            "desc": [
+              "用户在棒糖网络科技发表的内容（包含但不限于棒糖网络科技目前各产品功能里的内容）仅表明其个人的立场和观点,并不代表棒糖网络科技的立场或观点。作为内容的发表者,需自行对所发表内容负责,因所发表内容引发的一切纠纷,由该内容的发表者承担全部法律及连带责任。棒糖网络科技不承担任何法律及连带责任。 用户在棒糖网络科技发布侵犯他人知识产权或其他合法权益的内容,棒糖网络科技有权予以删除,棒糖网络科技不承担任何法律及连带责任,并保留移交司法机关处理的权利。",
+              "用户不得使用棒糖网络科技服务发送或传播敏感信息和违反国家法律制度的信息,包括但不限于下列信息：",
+              "1. 反对宪法所确定的基本原则的；",
+              "2.危害国家安全,泄露国家秘密,颠覆国家政权,破坏国家统一的；",
+              "3. 损害国家荣誉和利益的；",
+              "4. 煽动民族仇恨、民族歧视,破坏民族团结的；",
+              "5. 破坏国家宗教政策,宣扬邪教和封建迷信的；",
+              "6. 散布谣言,扰乱社会秩序,破坏社会稳定的；",
+              "7. 散布淫秽、色情、赌博、暴力、凶杀、恐怖或者教唆犯罪的；",
+              "8.侮辱或者诽谤他人,侵害他人合法权益的；",
+              "9.含有法律、行政法规禁止的其他内容的。 用户承诺发表言论要：爱国、守法、自律、真实、文明。不传输任何非法的、骚扰性的、中伤他人的、辱骂性的、恐吓性的、伤害性的、庸俗的,淫秽的、危害国家安全的、泄露国家机密的、破坏国家宗教政策和民族团结的以及其它违反法律法规及政策的内容。",
+              "若用户的行为不符合以上提到的服务条款, 棒糖网络科技将作出独立判断立即取消用户服务帐号。用户需对自己在网上的行为承担法律责任,棒糖网络科技不承担任何法律及连带责任。"
+            ]
+          },
+          {
+            "title": "四．免责声明",
+            "desc": [
+              "一旦您注册成为用户即表示您与棒糖网络科技达成协议,完全接受本服务条款项下的全部条款。对免责声明的解释、修改及更新权均属于棒糖网络科技所有。",
+              "1. 由于您将用户密码告知他人或与他人共享注册帐户,由此导致的任何个人信息的泄漏,或其他非因棒糖网络科技原因导致的个人信息的泄漏,棒糖网络科技不承担任何法律责任；",
+              "2. 任何第三方根据棒糖网络科技各服务条款及声明中所列明的情况使用您的个人信息,由此所产生的纠纷,棒糖网络科技不承认任何法律责任；",
+              "3. 任何由于黑客攻击、电脑病毒侵入或政府管制而造成的暂时性网站关闭,棒糖网络科技不承担任何法律责任；",
+              "4. 我们鼓励用户充分利用棒糖网络科技平台自由地张贴和共享自己的信息。您可以自由张贴图片等内容,但这些内容必须位于公共领域内,或者您拥有这些内容的使用权。同时,用户不应在自己的个人主页或社区中张贴其他受版权保护的内容。",
+              "5. 用户在棒糖网络科技发布侵犯他人知识产权或其他合法权益的内容,棒糖网络科技有权予以删除,并保留移交司法机关处理的权利。",
+              "6. 用户对于其创作并在棒糖网络科技上发布的合法内容依法享有著作权及其相关权利。",
+              "7. 互联网是一个开放平台,用户将图片等资料上传到互联网上,有可能会被其他组织或个人复制、转载、擅改或做其它非法用途,用户必须充分意识此类风险的存在。用户明确同意其使用棒糖网络科技服务所存在的风险将完全由其自己承担；因其使用棒糖网络科技服务而产生的一切后果也由其自己承担,棒糖网络科技对用户不承担任何责任。"
+            ]
+          },
+          {
+            "title": "五．服务变更、中断或终止",
+            "desc": [
+              "如因系统维护或升级的需要而需暂停网络服务、服务功能的调整,棒糖网络科技将尽可能事先在网站上进行通告。",
+              "如发生下列任何一种情形,棒糖网络科技有权单方面中断或终止向用户提供服务而无需通知用户：",
+              "1.用户提供的个人资料不真实；",
+              "2.用户违反本服务条款中规定的使用规则；",
+              "3.未经棒糖网络科技同意,将棒糖网络科技平台用于商业目的。"
+            ]
+          },
+          {
+            "title": "六．服务条款的完善和修改",
+            "desc": [
+              "棒糖网络科技会有权根据互联网的发展和中华人民共和国有关法律、法规的变化,不时地完善和修改棒糖网络科技服务条款。棒糖网络科技保留随时修改服务条款的权利,用户在使用棒糖网络科技平台服务时,有必要对最新的棒糖网络科技服务条款进行仔细阅读和重新确认,当发生有关争议时,请以最新的服务条款为准"
+            ]
+          },
+          {
+            "title": "七．特别约定",
+            "desc": [
+              "用户使用本服务的行为若有任何违反国家法律法规或侵犯任何第三方的合法权益的情形时,棒糖网络科技有权直接删除该等违反规定之信息,并可以暂停或终止向该用户提供服务。 若用户利用本服务从事任何违法或侵权行为,由用户自行承担全部责任,棒糖网络科技不承担任何法律及连带责任。因此给棒糖网络科技或任何第三方造成任何损失,用户应负责全额赔偿。"
+            ]
+          }
+        ]
+      },
+      "feedback": {
+        "meta": {
+          "title": "Feedback | Smart Fertility Tracker",
+          "keywords": "",
+          "desc": ""
+        },
+        "title": "Feedback",
+        "desc": "Any issues and suggestions are welcomed. <b>All the contents are required below.</b>",
+        "hint": "If your question is selected, we will contact you through the contact info you provided.",
+        "subSuccess": "Successfully submitted. Thank you for you support!"
+      },
+      "icp": {
+        "meta": {
+          "title": "ICP | Smart Fertility Tracker",
+          "keywords": "",
+          "desc": ""
+        }
+      }
+    },
+    "account": {
+      "login": {
+        "meta": {
+          "title": "Login | Smart Fertility Tracker",
+          "keywords": "",
+          "desc": ""
+        },
+        "title": "Login",
+        "tabMenu": ["Phone","Email"],
+        "resetLink": "Forgot password?",
+        "signupLink": "Sign up new account >"
+      },
+      "signup": {
+        "meta": {
+          "title": "Signup | Smart Fertility Tracker",
+          "keywords": "",
+          "desc": ""
+        },
+        "title": "Sign up",
+        "backLogin": "Account existed, login now >",
+        "signupRule": "Once signed up, by default you agree with ",
+        "and":"and"
+      },
+      "reset": {
+        "meta": {
+          "title": "Reset | Smart Fertility Tracker",
+          "keywords": "",
+          "desc": ""
+        },
+        "title": "Reset Password",
+        "tabMenu": ["Phone","Email"],
+        "hint": {
+          "email": "Please enter your email address. We will send you an email with instruction of reset password.",
+          "step": "Email sent. Please log into your email.<label></label>Please follow the instruction.",
+          "again": "Have not received email?<label>Resend<em class=\"time\">60s</em></label>"
+        },
+        "backLogin": "Back to login >",
+        "updateSuccess":"Updated",
+        "updateFail":"Failed",
+        "userError":"User name or verification code is incorrect"
+      },
+      "profile": {
+        "meta": {
+          "title": "Account | Smart Fertility Tracker",
+          "keywords": "",
+          "desc": ""
+        },
+        "title": "My account",
+        "nick": "Nickname",
+        "nickButton":"Update nickname",
+        "nickWait":"Updating...",
+        "nickSuccess":"Successful",
+        "nickFail":"Failed",
+        "phone": "Mobile",
+        "phoneButton":"Update phone number",
+        "phoneUpdateSuccess":"Successful",
+        "phoneUpdateFail":"Failed",
+        "validatePhone":"Verify phone number",
+        "confirm":"Confirm",
+        "buttonWait":"Sending...",
+        "saving":"Saving...",
+        "validate":"Verify",
+        "email": "Email",
+        "emailButton":"Update email address",
+        "emailSend":"Sent. Please check your email",
+        "emailAccept":"Having received email?",
+        "emailAgain":"Resend",
+        "emailSendFail":"Failed. Please verify your email address",
+        "emailPendingVerification":"Pending verification",
+        "emailVerified":"Email address verified",
+        "Verified":"Verified",
+        "password": "Password",
+        "passwordButton":"Update password",
+        "save":"Save",
+        "passwordSuccess":"Updated",
+        "loginAgain":"Log in again",
+        "loginAgainWait":"Redirecting to login page..."
+      },
+      "address": {
+        "meta": {
+          "title": "Address | Smart Fertility Tracker",
+          "keywords": "",
+          "desc": ""
+        },
+        "title": "Shipping address",
+        "add": "Add new shipping address",
+        "setDefault": "Set it as default",
+        "setUse": "Use this address",
+        "defaultAddress": "Default",
+        "editAddress": "Edit the address",
+        "deleteAddress": "Delete the address",
+
+        "addTitle":"Add new address",
+        "updateTitle":"Update the address",
+        "delTitle":"Delete",
+        "delContent":"Sure to delete the address?",
+        "addressAddSuccess":"Address added",
+        "addressAddFail":"Failed.",
+        "addressUpdateSuccess":"Address updated",
+        "addressUpdateFail":"Failed.",
+        "addressDelSuccess":"Address deleted",
+        "addressDelFail":"Failed.",
+        "addressDefaultSuccess":"Default address set successfully",
+        "addressDefaultFail":"Failed in setting default address",
+        "getAddressListFail":"Get address list failed.",
+        "getAddressListButton":"Try again"
+      },
+      "order": {
+        "index":{
+          "meta": {
+            "title": "Order | Smart Fertility Tracker",
+            "keywords": "",
+            "desc": ""
+          },
+          "title": "My orders",
+          "orderEmpty": "No relevant orders",
+          "orderSelectTime": ["All orders","Last 3 months","2016","2015"],
+          "orderSelectStatus": ["All status","Incomplete","Completed","Cancelled","Return/exchange"],
+          "ReturnPolicy": {
+            "title":"Return/exchange policy",
+            "tips1": "1. Refund only",
+            "tips11": "Condition: If you haven’t received you order or have reached to an agreement with the seller, please select “Refund only”",
+            "tips12": "Refund process: Request a refund — Seller agrees to refund — Refund completed",
+            "tips2": "2. Return and refund",
+            "tips21": "Condition: Due to product problem or have reached to an agreement with the seller, please select “return and refund” and keep the tracking information.",
+            "tips22": "Return process: Request a return — Address notified to buyer — Ship the product back and add tracking information — Product received by seller, return completed.",
+            "tips3": "3. Reship",
+            "tips31": "Condition: Due to product damage and seller agrees to reship, please select “Reship”.",
+            "tips32": "Re-ship process: Request a reship — Seller agrees to reship — Buyer received product, reship completed."
+          },
+          "receiveFail":"Failed to confirm delivery",
+          "cancelReChange":"Sure to cancel return/exchange?",
+          "cancelReChangeFail":"Cancel return/exchange"
+        },
+        "detail":{
+          "meta": {
+            "title": "Order details | Smart Fertility Tracker",
+            "keywords": "",
+            "desc": ""
+          },
+          "orderProcessBar": {
+            "step1": "Make an order",
+            "step1Info": {
+              "title": "Order status: Pending. Amount due: ",
+              "countdown": "You have",
+              "cancelTip":"to complete the order, otherwise the order will be cancelled automatically."
+            },
+            "step2": "Payment",
+            "step2Info": {
+              "title": "Payment completed",
+              "explain": "Your order will be fullfilled within 24 hours."
+            },
+            "step3": "Shipping",
+            "step3Info": {
+              "title": "Your order has shipped. Please see the tracking information below.",
+              "countdown": "You have ",
+              "cancelTip":"to confirm delivery.",
+              "receive": "If you have received and satisfied with it, you can"
+            },
+            "step4": "Order completed",
+            "step4Info": {
+              "title": "Order completed",
+              "explain": "This order is delivered. Order completed."
+            }
+          },
+          "waterProcessBar": {
+            "step1": "Submit",
+            "step1Info": {
+              "title": "Submitted",
+              "explain": "We will process your return/exchange request within 24 hours."
+            },
+            "step2": "Confirm",
+            "step2InfoSuccess": {
+              "title": "Confirmed",
+              "explain": "Please ship the return/exchange product to us within 24 hours."
+            },
+            "step2InfoFail": {
+              "title": "Seller rejected your return/exchange request.",
+              "explain": "Sorry, due to the note problem, please cancel your return/exchange request ."
+            },
+            "step3": "Ship from seller",
+            "step3InfoReturn": {
+              "title": "Shipped",
+              "explain": "We will process your return/exchange request within 24 hours of receiving item."
+            },
+            "step3InfoChange": {
+              "title": "Your order has shipped. Please see the tracking information below.",
+              "countdown": "You have ",
+              "cancelTip":" to confirm delivery.",
+              "explain": "If you don't confirm delivery in time, your order will be marked as delivered automatically.",
+              "receive": "1.If you have received and satisfied with it, you can",
+              "contactUs": "2.Have not received your order? You can"
+            },
+            "step4": "Return/exchange",
+            "step4InfoReturn": {
+              "title": "Refund issued",
+              "explain": "Refund was issued according to your payment method. It may cause certain delay.",
+              "contactUs": "Have not received your refund? You can"
+            },
+            "step4InfoChange": {
+              "title": "Order completed",
+              "explain": "This order is delivered. Order completed."
+            }
+          },
+          "orderTimed":"Order closed due to expiration",
+          "receiveTimed":"Order confirmed automatically.",
+          "backToSeeOrder":"Reload order info",
+          "receiveFail":"Failed to confirm delivery",
+          "contact":"Contact us >",
+          "submitTip":"Please select",
+          "submit":"submit",
+          "unfoundOrder":"Can not find this order",
+          "backToAccountOrder": "Back to my order"
+        },
+        "cancel":{
+          "meta": {
+            "title": "Cancel the order | Smart Fertility Tracker",
+            "keywords": "",
+            "desc": ""
+          },
+          "applyTitle": "Cancel the order",
+          "applyReason": "Reason for cancel",
+          "applyRemark": "Note：<span>(0/200 characters)</span>",
+          "cancelReason": ["Please select a reason for cancellation", "I don't want it anymore", "Wrong shipping address", "Wrong product attribute selected"],
+          "backToOrder":"Back to my order",
+          "submit":"submit",
+          "submitSuccess":"Submitted",
+          "cancelSuccessTip":"Request submitted successfully. Order closed.",
+          "submitTip":"Please select",
+          "noRemark":"None"
+        },
+        "reChange":{
+          "meta": {
+            "title": "Return/exchange request | Smart Fertility Tracker",
+            "keywords": "",
+            "desc": ""
+          },
+          "applyTitle": "Request a return/exchange",
+          "title": "Return/exchange info",
+          "applyType": "Service type",
+          "applyReason": "Reasons for request",
+          "applyRemark": "Note：<span>(0/200 characters)</span>",
+          "reChangeType": ["Please select", "Return", "Exchange"],
+          "reChangeReason": ["Please select a reason for your request", "Product damaged", "Wrong size", "Other"],
+          "submit":"submit",
+          "submitSuccess":"Submitted",
+          "reChangeSuccessTip":"Your request is submitted successfully and will be processed soon.",
+          "submitTip":"Please select",
+          "noRemark":"None"
+        }
+      }
+    },
+    "errorPage": {
+      "error404": "Sorry... Page does not exist.",
+      "error500": "Error. Please come back later.",
+      "backHome": "Back to home page",
+      "countdown": "Back to home page in <span id=\"gohome_time\">10</span> secs."
+    }
+  },
+  "components": {
+    "langChange": {
+      "lang": "zh",
+      "name": "中文"
+    },
+    "headerNav": {
+      "home": "Home",
+      "femometer": "Femometer",
+      "app": "App",
+      "mall": "Mall",
+      "blog": "Blog",
+      "about": "About",
+      "cart": "ShopCart",
+      "login": "Login"
+    },
+    "footerNav": {
+      "about": "About",
+      "product": "Products",
+      "contact": "Contact Us",
+      "follow": "Follow Us",
+      "Facebook": "Facebook",
+      "Instagram": "Instagram",
+      "Twitter": "Twitter",
+      "YouTube": "YouTube"
+    },
+    "aboutSideBar": {
+      "aboutCompany": "Company",
+      "aboutCareer": "Career",
+      "aboutEvents": "Events",
+      "aboutContact": "Contact Us",
+      "aboutFAQs": "FAQs",
+      "aboutPrivacy": "Privacy",
+      "aboutTerms": "Terms of Service",
+      "aboutFeedback": "Feedback"
+    },
+    "accountSideBar": {
+      "accountProfile": "My Profile",
+      "accountAddress": "Address",
+      "accountOrder": "Order",
+      "accountLoginOut": "Log out"
+    },
+    "orderInfo": {
+      "orderStatus": {
+        "orderTitle": "Order status",
+        "rechangeTitle": "Return/exchange status",
+        "orderNumber": "Order number"
+      },
+      "orderClosed": {
+        "title": "This order is closed",
+        "reason": "Reason",
+        "remark": "Note"
+      },
+      "orderCanceled":{
+        "title":"Information of closed order",
+        "reason":"Reason for close",
+        "remark":"Note"
+      },
+      "orderReChanged":{
+        "title":"Return/exchange info",
+        "type":"Service type",
+        "reason":"Reasons for request",
+        "remark":"Note",
+        "status7":"Return",
+        "status8":"Exchange"
+      },
+      "addressInfo": {
+        "orderTitle": "Shipping information",
+        "StatusTitle": "Shipping information",
+        "ReceiptAddress": "Address",
+        "DeliveryMode": "Method",
+        "zipCode":"Zip code",
+        "phone":"Contact info",
+        "transport":"Logistic"
+      },
+      "invoiceInfo": {
+        "title": "Invoice information",
+        "typeTitle": "Type",
+        "typeList": ["Paper","Electronic invoice", "Value added tax invoice"],
+        "headTitle": "Title",
+        "headList": ["I don't need invoice", "Personal", "Company"]
+      },
+      "billInfo": {
+        "paymentTitle": "Shopping list",
+        "statusTitle": "Product information",
+        "billTableNav": {
+          "goods": "Item",
+          "price": "Price",
+          "quantity": "Quantity",
+          "subtotal": "Subtotal",
+          "total": "Total",
+          "status": "Status",
+          "operation": "Operation"
+        },
+        "subtotal": "Subtotal",
+        "total": "Total",
+        "shippingCost": "Shipping",
+        "totalPrice": "Total (shipping excluded)",
+        "due": "Amount due"
+      },
+      "logisticsInfo": {
+        "title": "Tracking information",
+        "buyerTitle": "Tracking information from seller",
+        "logisticsCompany": "Logistics company",
+        "logisticsNumber": "Tracking number",
+        "hint": "Please refer to the original tracking from logistics company for more detailed information.",
+        "logisticsLink":"Click to view"
+      },
+      "loading": {
+        "loadingShoppingCart": "Loading shopping cart...",
+        "loadingShoppingGoods": "Loading shipping cart...",
+        "loadingAddress": "Loading address...",
+        "loadingOrderList": "Loading order list...",
+        "loadingOrderInfo": "Loading order info...",
+        "loadingGoodsDetail":"Loading item info..."
+      },
+      "button":{
+        "orderCartPay":"Checkout",
+        "orderPay":"Pay now",
+        "orderPayToMallPayment":"Pay now",
+        "orderCreate":"Submit",
+        "orderDetail":"Order details",
+        "orderCancel":"Cancel the order",
+        "orderReChange":"Return",
+        "orderClose":"Order closed",
+        "orderCompleted":"Completed",
+        "orderReceive":"Confirm",
+        "orderSend":"Unfullfilled",
+        "orderComment":"Awaiting for comments",
+        "orderReturn":"In return",
+        "orderChange":"In exchange",
+        "orderCancelReChange":"Cancel return/exchange",
+        "allGoods":"View all items",
+        "skip":"Continue shopping"
+      }
+    },
+    "externalLinks": {
+      "tMall": "https://bangmi.tmall.com/",
+      "microBlog": "http://weibo.com/loollypop",
+      "Facebook": "https://facebook.com/femometer",
+      "Instagram": "https://instagram.com/femometer",
+      "Twitter": "https://twitter.com/femometerinc",
+      "YouTube": "https://www.youtube.com/channel/UCnQOMeB4MoByua3JttrJVLg"
+    },
+    "pagination":{
+      "first":"First",
+      "last":"Last",
+      "prev":"Previous",
+      "next":"Next",
+      "num":"Number<span id=\"page-now\"></span>",
+      "sum":"<span id=\"page-count\"></span>in total",
+      "jumpInput":", Jump to",
+      "jumpPage":"Page",
+      "jumpButton":"Jumping"
+    },
+    "form": {
+      "question": {
+        "questionPlaceholder": "Describe the issue here.",
+        "questionEmpty": "*Issue description is required."
+      },
+      "contact": {
+        "contactPlaceholder": "Please enter your contact info",
+        "contactEmpty": "*Contact info is required."
+      },
+      "phone": {
+        "phonePlaceholder": "Phone number",
+        "phoneEmpty": "*Phone number needed.",
+        "phoneExistence": "*This number has been registered.",
+        "phoneNotExistence": "*This phone number is not registered.",
+        "phoneBlank": "*Phone number is required.",
+        "phoneDigit": "*Please do not enter any characters except for numbers.",
+        "phoneValidate":"Phone verified"
+      },
+      "email": {
+        "emailPlaceholder": "Please enter Email",
+        "emailEmpty": "*Email address needed.",
+        "emailFormat": "*Wrong email format.",
+        "emailExistence": "*This email address is existent.",
+        "emailNotExistence": "*This email address is not registered.",
+        "emailValidate":"Email verified"
+      },
+      "password": {
+        "passwordPlaceholder": "Password",
+        "passwordSetPlaceholder": "Set the password",
+        "passwordNowPlaceholder": "Please enter current password",
+        "passwordNewPlaceholder": "Please enter your new password",
+        "passwordConfirmPlaceholder": "Confirm password",
+        "passwordEmpty": "*Password can't be empty.",
+        "passwordFormat": "*8-18 digits required, should include at least two types of letters and numbers.",
+        "passwordSame": "*Please enter the same password.",
+        "passwordOldError": "*Wrong password."
+      },
+      "captcha": {
+        "captchaPlaceholder": "Verification",
+        "captchaGet": "Get code",
+        "captchaTitle": "",
+        "captchaChange": "Try another one",
+        "captchaWait": "Sending...",
+        "captchaAgain": "Resend",
+        "captchaSendFail": "*Failed.",
+        "captchaError": "*Wrong verification code.",
+        "captchaEmpty": "*Verification code is required.",
+        "captchaSend": "*Verification code sent."
+      },
+      "company": {
+        "companyPlaceholder": "Please enter name of company.",
+        "companyEmpty": "*Name of company is required."
+      },
+      "address": {
+        "bigAddressPlaceholder": "Street address 1",
+        "smallAddressPlaceholder": "Street address 2",
+        "selectAreaEmpty": "*State/city/county can't be empty.",
+        "bigAddressEmpty":"*Street address 1 can't be empty",
+        "addressDetailEmpty": "*Street address 2 can't be empty."
+      },
+      "country":{
+        "country":"Country",
+        "city":"City",
+        "state":"State",
+        "countryEmpty":"*Country is required.",
+        "cityEmpty":"*City is required.",
+        "stateEmpty":"*State is required."
+      },
+      "addressName": {
+        "firstName":"First name",
+        "lastName":"Last name",
+        "addressNamePlaceholder": "Recipient",
+        "firstNameEmpty":"*Name of recipient is required.",
+        "lastNameEmpty":"*Name of recipient is required.",
+        "addressNameEmpty": "*Name of recipient is required."
+      },
+      "zipCode": {
+        "zipCodePlaceholder": "Zip code",
+        "zipCodeFormat": "*Please enter with correct format.",
+        "zipCodeEmpty": "*Zip code can't be empty."
+      },
+      "nickname": {
+        "nicknamePlaceholder": "Please enter nickname"
+      },
+      "expressNo":{
+        "expressNoPlaceholder":"Please enter tracking number",
+        "expressNoEmpty":"*Tracking number is required."
+      },
+      "feedbackSubmit": {
+        "submit": "Submit",
+        "submitWait": "Submitting..."
+      },
+      "loginSubmit": {
+        "submit": "Login",
+        "submitValidate": "Validating...",
+        "submitWait": "Logging in..."
+      },
+      "signupSubmit": {
+        "submit": "Sign up",
+        "submitValidate": "Submitting...",
+        "submitWait": "Successful. Please log in."
+      },
+      "resetSubmit": {
+        "submit": "Reset",
+        "submitValidate": "Resetting...",
+        "submitWait": "Successful. Please log in."
+      },
+      "profileSubmit": {
+        "nickButton": "Update nickname",
+        "phoneButton": "Update phone number",
+        "emailButton": "Update email email",
+        "passwordButton": "Update password"
+      },
+      "addressSubmit": {
+        "submit": "Submit",
+        "submitWait": "Submitting..."
+      },
+      "submitFail": "Failed. Please submit again.",
+      "systemError": "Error. Please try again later."
+    },
+    "dialog": {
+      "title": "Kindly reminder",
+      "button": {
+        "knowButton": "Got It",
+        "confirmButton": "Confirm",
+        "cancelButton": "Cancel",
+        "deleteButton":"Delete",
+        "saveButton":"Save",
+        "savingButton":"Saving...",
+        "confirmSubmitButton":"Confirm to submit",
+        "submitButton":"Submit",
+        "submittingButton":"Submitting...",
+        "sendButton":"Send",
+        "sendingButton":"Sending...",
+        "reSendButton":"Resend",
+        "loginButton":"Login",
+        "resetButton":"Reset",
+        "signupButton":"Signup"
+      },
+      "loginFail":{
+        "title":"Please log in first",
+        "button":"Login"
+      },
+      "unLoggedIn": "Not logged in"
+    }
+  }
+}

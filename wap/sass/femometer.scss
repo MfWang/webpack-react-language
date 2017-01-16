@@ -1,0 +1,263 @@
+.femometer{
+  .title{
+    text-align: center;
+    font-size: .4rem;
+    color: #000;
+    line-height: .4rem;
+    margin-bottom: .24rem;
+  }
+  .desc{
+    text-align: center;
+    font-size: .28rem;
+    color: rgba(0,0,0,0.54);
+    line-height: .4rem;
+    padding: 0 0.32rem;
+  }
+  .btns{
+    display: flex;
+    justify-content: center;
+    margin-top: .24rem;
+    a{
+      font-size: .28rem;
+      color: #fff;
+      line-height: .28rem;
+      &:first-child{
+        margin-right: .32rem;
+      }
+    }
+  }
+  .f1{
+    width: 7.5rem;
+    height: 8.65rem;
+    background: url("../img/femometer/page1.png") no-repeat center top;
+    background-size: contain;
+    .title{
+      font-size: .6rem;
+      color: #fff;
+      line-height: .6rem;
+      padding-top: 6.31rem;
+      margin-bottom: .32rem;
+    }
+    .desc{
+      font-size: .28rem;
+      color: rgba(255,255,255,0.8);
+      line-height: .4rem;
+    }
+  }
+  .f2{
+    width: 7.5rem;
+    height: 13.6rem;
+    background: url("../img/femometer/page2.png") no-repeat center top;
+    background-size: contain;
+    .title{
+      padding-top: 4.36rem;
+    }
+    .icon-list{
+      display: flex;
+      justify-content: center;
+      font-size: .28rem;
+      color: rgba(0,0,0,0.54);
+      line-height: .28rem;
+      text-align: center;
+      margin-top: .33rem;
+    }
+    .icon-list1{
+      width: 1.6rem;
+      height: 1.6rem;
+      padding-top: 1.22rem;
+      background: url("../img/femometer/icon1.png") no-repeat center top;
+      background-size: contain;
+    }
+    .icon-list2{
+      width: 1.6rem;
+      height: 1.6rem;
+      padding-top: 1.22rem;
+      background: url("../img/femometer/icon2.png") no-repeat center top;
+      background-size: contain;
+    }
+    .icon-list3{
+      width: 1.6rem;
+      height: 1.6rem;
+      padding-top: 1.22rem;
+      background: url("../img/femometer/icon3.png") no-repeat center top;
+      background-size: contain;
+    }
+  }
+  .f3{
+    .f3-bg{
+      width: 7.5rem;
+      height: 5.26rem;
+      background: #fff url("../img/femometer/page3.png") no-repeat center top;
+      background-size: contain;
+    }
+    .title{
+      margin-top: .42rem;
+    }
+    .icon-list{
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      margin: .42rem 0 1.84rem 0;
+    }
+    .icon-list1{
+      width: 1.9rem;
+      height: .9rem;
+      padding: 1.14rem 0 0 0;
+      .desc{
+        padding: 0;
+        line-height: .28rem;
+      }
+      background: url("../img/femometer/f3-icon1.png") no-repeat center top;
+      background-size: contain;
+    }
+    .icon-list2{
+      width: 1.9rem;
+      height: .9rem;
+      padding: 1.14rem 0 0 0;
+      .desc{
+        padding: 0;
+        line-height: .28rem;
+      }
+      background: url("../img/femometer/f3-icon2.png") no-repeat center top;
+      background-size: contain;
+    }
+    .icon-list3{
+      width: 1.9rem;
+      height: .9rem;
+      padding: 1.14rem 0 0 0;
+      .desc{
+        padding: 0;
+        line-height: .28rem;
+      }
+      background: url("../img/femometer/f3-icon3.png") no-repeat center top;
+      background-size: contain;
+    }
+    .icon-list4{
+      width: 1.9rem;
+      height: .9rem;
+      padding: 1.14rem 0 0 0;
+      .desc{
+        padding: 0;
+        line-height: .28rem;
+      }
+      background: url("../img/femometer/f3-icon4.png") no-repeat center top;
+    }
+  }
+  .f4{
+    text-align: center;
+    width: 7.5rem;
+    height: 10.24rem;
+    background: url("../img/femometer/page4.png") no-repeat center top;
+    background-size: contain;
+    .title{
+      padding-top: 7.7rem;
+    }
+    img{
+      width: 3.2rem;
+      height: .55rem;
+    }
+  }
+  .f5{
+    width: 7.5rem;
+    height: 7.33rem;
+    background: url("../img/femometer/page5.png") no-repeat center top;
+    background-size: contain;
+    .title{
+      color: #fff;
+      padding-top: 2.7rem;
+    }
+    .title2{
+      font-size: .32rem;
+      line-height: .24rem;
+      color: #fff;
+      text-align: center;
+      margin-bottom: .24rem;
+    }
+    .desc{
+      width: 4.9rem;
+      margin: 0 auto;
+      color: #fff;
+    }
+  }
+  .f6{
+    width: 7.5rem;
+    height: 10.24rem;
+    margin-bottom: 1.5rem;
+    background: url("../img/femometer/page6-1.png") no-repeat center top,url("../img/femometer/page6-2.png") no-repeat center bottom;
+    background-size: contain;
+    .title{
+      padding-top: 4.88rem;
+    }
+    .colors{
+      display: flex;
+      justify-content: center;
+      margin-top: 4.2rem;
+      span{
+        width: .76rem;
+        height: .4rem;
+        text-align: center;
+        color: #fff;
+        font-size: .2rem;
+        line-height: .4rem;
+        border-radius: .08rem;
+        margin-right: .3rem;
+        &:last-child{
+          margin: 0;
+        }
+      }
+      .white{
+        background: #cfcfcf;
+      }
+      .blue{
+        background: #7edfef;
+      }
+      .pink{
+        background: #ff87ac;
+      }
+      .purple{
+        background: #bb70a2;
+      }
+      .gold{
+        background: #b47a75;
+      }
+    }
+  }
+  .f7{
+    h3{
+      font-size: .32rem;
+      color: rgba(0,0,0,0.87);
+      line-height: .4rem;
+      text-align: center;
+      padding-top: 3.81rem;
+      margin-bottom: .16rem;
+    }
+    .step1{
+      width: 6.86rem;
+      height: 3.49rem;
+      margin: .4rem auto 2.3rem auto;
+      background: url("../img/femometer/step1.png") no-repeat center top;
+      background-size: contain;
+    }
+    .step2{
+      width: 6.86rem;
+      height: 3.49rem;
+      margin: 0 auto 2.3rem auto;
+      background: url("../img/femometer/step2.png") no-repeat center top;
+      background-size: contain;
+    }
+    .step3{
+      width: 6.86rem;
+      height: 3.49rem;
+      margin: 0 auto 2.3rem auto;
+      background: url("../img/femometer/step3.png") no-repeat center top;
+      background-size: contain;
+    }
+  }
+  .f8{
+    width: 7.5rem;
+    height: 8rem;
+    background: url("../img/femometer/page8.png") no-repeat center bottom;
+    background-size: contain;
+    margin-bottom: 2rem;
+  }
+}

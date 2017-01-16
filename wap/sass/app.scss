@@ -1,0 +1,137 @@
+@import "common";
+.contain{
+  margin-bottom: .73rem;
+  .f1{
+    width: 7.5rem;height: 12.3rem;
+    background: url("../img/app/f1.png") no-repeat center top;
+    background-size: contain;
+    text-align: center;
+    h1{
+      font-size: .6rem;
+      color: #000000;
+      padding-top: 7rem;
+    }
+    .desc{
+      font-size: .28rem;
+      color: #000000;
+      margin-bottom: .24rem;
+    }
+    .btn{
+      width: 5rem;
+      display: flex;
+      justify-content: space-between;
+      margin: .32rem auto .48rem auto;
+      button{
+        width: 2.1rem;
+        padding: 0 0.16rem;
+        height: .5rem;
+        line-height: .5rem;
+        background: #393939;
+        color: #fff;
+        border-radius: .1rem;
+        text-align: left;
+        font-size: .2rem;
+      }
+      i{
+        float: right;
+        font-size: .3rem;
+      }
+    }
+    .code{
+      width: 5rem;
+      display: flex;
+      justify-content: space-between;
+      margin: .24rem auto 0 auto;
+      img{
+        width: 2.18rem;
+        height: 2.18rem;
+      }
+    }
+  }
+  .title{
+    width: 6rem;
+    margin: 0 auto;
+    font-size: .4rem;
+    color: #000;
+    line-height: .5rem;
+    text-align: center;
+    padding: 1.04rem 0 0.24rem;
+  }
+  .desc{
+    font-size: .28rem;
+    color: rgba(0,0,0,0.54);
+    line-height: .4rem;
+    width: 6rem;
+    text-align: center;
+    margin: 0 auto .4rem auto;
+  }
+  .f2,.f4,.f6,.f8{
+    background: #fff;
+  }
+  .f3,.f5,.f7{
+    background: #fbfbfb;
+  }
+  .f4,.f6{
+    padding-bottom: .54rem;
+  }
+  @for $i from 2 through 8 {
+    .f#{$i}-img {
+      width: 7.5rem;
+      background-image: url("../img/app/f#{$i}.png");
+      background-repeat: no-repeat;
+      background-position: center top;
+      background-size: contain;
+      @if($i == 2){height: 5.87rem;}
+      @else if($i == 3){height: 6.1rem;}
+      @else if($i == 4){height: 3.73rem;}
+      @else if($i == 5){height: 4.11rem;}
+      @else if($i == 6){height: 2.5rem;}
+      @else if($i == 7){height: 4.83rem;}
+      @else if($i == 8){height: 4.13rem;}
+    }
+  }
+  .f3-icons{
+    width: 4.8rem;
+    overflow: hidden;
+    margin: .24rem auto 0 auto;
+    span{
+      float: left;
+      width: .64rem;
+      height: .64rem;
+      margin: 0 .16rem .24rem .16rem;
+      background:transparent url("../img/app/f3-icons.png") scroll no-repeat 0 0;
+    }
+    @each $n in (1,2,3,4,5){
+      .i#{$n}{
+        background-position:-#{($n - 1)*84}px 0;
+      }
+    }
+    @each $n in (6,7,8,9,10){
+      .i#{$n}{
+        background-position:-#{($n - 6)*84}px -75px;
+      }
+    }
+  }
+  @keyframes fadeUpIn{
+    0% {
+      transform:translateY(20px);
+      opacity:0;
+    }
+    80% {
+      transform:translateY(-4px);
+      opacity:0.8;
+    }
+    100% {
+      transform:translateY(0px);
+      opacity:1;
+    }
+  }
+  @for $n from 1 through 10 {
+    .i#{$n}{
+      opacity:0;
+      transform:translateY(20px);
+      animation:fadeUpIn 0.6s linear #{$n*0.3}s 1 normal;
+      animation-fill-mode:forwards;
+    }
+  }
+}

@@ -1,0 +1,121 @@
+/* scss源文件 */
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+html {
+  box-sizing: border-box;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+body {
+  margin: 0;
+}
+body,html{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+i{
+  font-style: normal;
+}
+h1,h2,h3,h4,h5,h6,p,div,span,ul,li{
+  margin: 0;
+  padding: 0;
+}
+ul,li{
+  list-style-type: none;
+}
+a{
+  &,&:link,&:visited,&:hover,&:active{
+    color: #000;
+    text-decoration: none;
+    outline: none;
+  }
+}
+@font-face {
+  font-family: "BongmiIcon";
+  src: url('../fonts/iconfont.eot'); /* IE9*/
+  src: url('../fonts/iconfont.eot#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('../fonts/iconfont.woff') format('woff'), /* chrome, firefox */
+  url('../fonts/iconfont.ttf') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  url('../fonts/iconfont.svg#BongmiIcon') format('svg'); /* iOS 4.1- */
+  font-weight: normal;
+  font-style: normal;
+}
+$nest: "bmui-";
+@mixin bmui-icon-font() {
+  display: inline-block; // 1
+  font: normal normal normal 14px/1 "BongmiIcon", sans-serif; // shortening font declaration
+  /*font-weight: normal; // 2
+  font-style: normal; // 2
+  vertical-align: baseline; // 3
+  line-height: 1; // 4*/
+  font-size: inherit; // can't have font-size inherit on line above, so need to override
+  text-rendering: auto; // optimizelegibility throws things off #1094
+  -webkit-font-smoothing: antialiased; // 5
+  -moz-osx-font-smoothing: grayscale;
+  transform: translate(0, 0); // ensures no half-pixel rendering in firefox
+}
+
+/* Component
+============================================================================= */
+
+[class*="#{$nest}icon-"] {
+  display: inline-block;
+  font-style: normal;
+  &:before {
+    @include bmui-icon-font;
+  }
+}
+$icon-list: (
+  ("account", "\e600"),
+  ("address", "\e601"),
+  ("arrowdown", "\e602"),
+  ("arrowup", "\e603"),
+  ("close", "\e604"),
+  ("logout", "\e605"),
+  ("order", "\e606"),
+  ("phone", "\e607"),
+  ("shopping", "\e608"),
+  ("check", "\e609"),
+  ("clear", "\e60a"),
+  ("add", "\e60b"),
+  ("delete", "\e60c"),
+  ("edit", "\e60d"),
+  ("warning", "\e60e"),
+  ("question", "\e60f"),
+  ("arrowright", "\e613"),
+  ("arrowleft", "\e615"),
+  ("start", "\e61a"),
+  ("appstore", "\e61b"),
+  ("android", "\e618"),
+  ("ios", "\e619"),
+  ("payment-success", "\e616"),
+  ("payment-error", "\e617"),
+);
+@each $icon-item in $icon-list {
+  .#{$nest}icon-#{nth($icon-item, 1)}:before {
+    content: nth($icon-item, 2);
+  }
+}
+$primary-color: #f40;
+
+:export {
+  primaryColor: $primary-color;
+}
+
+/* 该注释会并保留到编译后的文件中 */
+// 该注释只会保留在scss源文件中
+/*!
+  重要注释！
+  即使是压缩模式编译，也会保留这行注释，通常可以用于声明版权信息。
+*/
+
+//@include background-imagex(wiki);
+@mixin background-imagex($img,$postfix:png){
+  background-image:url("../img/#{$img}.#{$postfix}");
+  background-image:-webkit-image-set( url("../img/#{$img}.#{$postfix}") 1x, url("../img/#{$img}@2x.#{$postfix}") 2x) ;
+  background-image:image-set( url("../img/#{$img}.#{$postfix}") 1x, url("../img/#{$img}@2x.#{$postfix}") 2x) ;
+}
+
+
