@@ -62,19 +62,19 @@ class Footer extends React.Component {
                         <li className="footer-sidenav-li"><a href="">微博</a></li>
                     </ul>
                 </div>
-
                 <div className="contact">
                     <h3><i className="bmui-icon-phone"></i>400-1-68-321</h3>
                     <p>周一至周五 9:30-18:00(仅收市话费)</p>
                 </div>
                 <div className="copyright">
                     <p className={style.text}>Copyright@2014-2016 杭州棒糖网络科技有限公司 All Rights Reserved.</p>
-                    <p><span>浙 B2-20160866</span><span><a className="active" href="">隐私策略</a></span><span><a className="active"
-                        href="">使用条款</a></span></p>
+                    <p><span className="span icp">浙ICP备14043434号-2</span><span className="span">浙 B2-20160866</span></p>
+                    <p><span className="span">浙公网安备 <a href="" className="active">33010802007742</a>号</span></p>
                     <div className="lang-change">
                         <ul className={this.state.option == true ? 'show':'hide'}>
                             <li className={this.state.lang == 'en' ? 'flag-en selected' : 'flag-en'} data-lang="en" onClick={this.langChange.bind(this,'en')}></li>
                             <li className={this.state.lang == 'zh' ? 'flag-zh selected' : 'flag-zh'} data-lang="zh" onClick={this.langChange.bind(this,'zh')}></li>
+                            <li className="blank"></li>
                         </ul>
                         <div className={`lang-show flag-${this.state.lang}`} onClick={this.langShow.bind(this)}><i className={this.state.option == true ? 'bmui-icon-arrowdown':'bmui-icon-arrowup'}></i></div>
                     </div>

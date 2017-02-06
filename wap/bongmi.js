@@ -21,12 +21,14 @@ ReactDom.render(
 import Index from './bongmi/Index.jsx';
 import Femometer from './bongmi/Femometer.jsx';
 import App from './bongmi/App.jsx';
+import About from './bongmi/About.jsx';
 var routes = (
     <Router history={hashHistory}>
         <IndexRoute component={Index} />
         <Route path="/" component={Index}/>
         <Route path="femometer" component={Femometer}/>
         <Route path="app" component={App}/>
+        <Route path="about" component={About}/>
     </Router>
 )
 ReactDom.render(
@@ -34,6 +36,7 @@ ReactDom.render(
         <Route path="/" component={Index}/>
         <Route path="femometer" component={Femometer}/>
         <Route path="app" component={App}/>
+        <Route path="about" component={About}/>
     </Router>),
     document.getElementById('content')
 );

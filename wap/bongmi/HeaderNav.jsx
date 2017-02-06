@@ -24,7 +24,7 @@ var topMenuLink = [
     },
     {
         "name":"关于我们",
-        "link":""
+        "link":"/about"
     }
 ]
 var accountSideBar = [
@@ -69,7 +69,13 @@ class HeaderNav extends React.Component {
             <div>
                 <div>
                     <ul className="top">
-                        <li className="menu-icon"><i className="bmui-icon-question top-icon" onClick={this.headerNav.bind(this)}></i></li>
+                        <li className="menu-icon">
+                            <div className={this.state.menu ? 'menu-div active':'menu-div'} onClick={this.headerNav.bind(this)}>
+                                <span className="line line1"></span>
+                                <span className="line line2"></span>
+                                <span className="line line3"></span>
+                            </div>
+                        </li>
                         <li className="logo-icon"><i className="bmui-icon-warning top-icon active"></i></li>
                         <li className="account-icon">
                             <i className="bmui-icon-shopping top-icon"></i>
@@ -78,11 +84,11 @@ class HeaderNav extends React.Component {
                     </ul>
                 </div>
                 <div className={this.state.menu === true ? "menu--active" : "menu"}>
-                    <ul>
+                    <ul onClick={this.headerNav.bind(this)}>
                         {
-                            topMenuLink.map(function (value) {
+                            topMenuLink.map(function (value,index) {
                                 return (
-                                    <li className="account-sideBar-li">
+                                    <li className="account-sideBar-li" key={index} data={index} >
                                         <a href={`#${value.link}`}>{value.name}</a>
                                     </li>
                                 )
@@ -91,12 +97,12 @@ class HeaderNav extends React.Component {
                     </ul>
                 </div>
                 <div className={this.state.account === true ? "account--active" : "account"}>
-                    <ul>
+                    <ul onClick={this.accountNav.bind(this)}>
                         {
-                            accountSideBar.map(function (value) {
+                            accountSideBar.map(function (value,index) {
                                 return (
-                                    <li className="account-sideBar-li">
-                                        <a href={value.link}><i className={value.icon}></i>{value.name}</a>
+                                    <li className="account-sideBar-li" key={index}>
+                                        <a href={`#${value.link}`}><i className={value.icon}></i>{value.name}</a>
                                     </li>
                                 )
                             })

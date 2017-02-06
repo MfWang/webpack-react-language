@@ -1,0 +1,277 @@
+.contain{
+  .about-menu{
+    width: 7.5rem;
+    overflow: hidden;
+    height: .8rem;
+  }
+  .scroll{
+    width: 1190px;
+    overflow-x: auto;
+  }
+  .about-menu-ul{
+    width: 100%;
+    height: .8rem;
+    font-size: .32rem;
+    border-bottom: 1px solid #d8d8d8;
+    li{
+      float: left;
+      margin-left: .5rem;
+      height: .8rem;
+      a{
+        font-size: .32rem;
+        line-height: .8rem;
+        color: rgba(0,0,0,0.8);
+      }
+      &.active{
+        a{
+          color: #7fa937;
+        }
+        border-bottom: .04rem solid #7fa937;
+      }
+    }
+  }
+
+  .company{
+    display: none;
+    img{
+      width: 7.5rem;
+      margin: .6rem 0 0 0;
+    }
+    p{
+      font-size: .28rem;
+      color: #000;
+      padding:0 .4rem;
+    }
+  }
+  .career{
+    display: none;
+    .hr{
+      font-size: .28rem;
+      color: #000;
+      span{
+        display: inline-block;
+      }
+    }
+    table{
+      width: 100%;
+      border-collapse: collapse;
+      th{
+        background-color: #544c78;
+        color: #fff;
+        font-size: .30rem;
+        height: .7rem;
+        text-align: left;
+      }
+      td{
+        font-size: .26rem;
+        min-width: .4rem;
+        height: .7rem;
+      }
+      .job-name{
+        width: 3.04rem;
+        border-bottom: .02rem dashed #b7b7b7;
+      }
+      .job-time{
+        width: 2.44rem;
+        border-bottom: .02rem dashed #b7b7b7;
+      }
+    }
+  }
+  .job-detail{
+    display: none;
+    position: relative;
+    a{
+      color: #7fa937;
+      font-size: .32rem;
+      position: absolute;
+      top: 0;
+      left: .4rem;
+      height: .6rem;
+      line-height: .6rem;
+    }
+    .job-name{
+      width: 100%;
+      font-size: .4rem;
+      text-align: center;
+      margin-top: .52rem;
+      height: .6rem;
+      line-height: .6rem;
+      margin-bottom: .44rem;
+    }
+    p{
+      font-size: .24rem;
+      color: #000;
+      padding: 0 .4rem;
+    }
+  }
+  .events{
+    display: none;
+    .year{
+      font-size: .56rem;
+      color: rgba(0,0,0,0.8);
+      margin-top: .4rem;
+      margin-left: .3rem;
+      margin-bottom: .28rem;
+    }
+    .detail{
+      padding: 0 .5rem 0 .79rem;
+      position: relative;
+      overflow: hidden;
+    }
+    span{
+      float: left;
+    }
+    .month{
+      width: 1rem;
+      font-size: .36rem;
+      color: #000;
+      text-align: right;
+      margin-right: .2rem;
+    }
+    .line{
+      min-height: 1.3rem;
+      width: .02rem;
+      position: absolute;
+      top: 0;
+      left: 2rem;
+      padding-bottom: .5rem;
+    }
+    .line:after{
+      width: .25rem;
+      height: .25rem;
+      line-height: 0;
+      font-size: 0;
+      content: "";
+      border-radius: 50%;
+      background: #70bbff;
+      position: absolute;
+      left: -0.125rem;
+      top: 0;
+     }
+    .line1:after{
+      background: #d1a8ff;
+    }
+    .events-detail{
+      border-left: 1px solid #d8d8d8;
+      font-size: .28rem;
+      color: rgba(0,0,0,0.8);
+      width: 4.4rem;
+      line-height: 1.5;
+      min-height: 1.3rem;
+      padding-bottom: .5rem;
+      padding-left: .5rem;
+    }
+    .noline{
+      border: none;
+    }
+  }
+  .contact{
+    .company-name{
+      font-size: .4rem;
+      color: rgba(0,0,0,0.8);
+      border-bottom: 0.02rem solid rgba(0,0,0,0.12);
+      padding: .4rem 0 .24rem .4rem;
+      margin-bottom: .24rem;
+    }
+    .info{
+      display: flex;
+      padding: 0 .4rem;
+    }
+    table{
+      width: 4.08rem;
+      font-size: .28rem;
+      color: rgba(0,0,0,0.8);
+      tr{
+        td:first-child{
+          text-align: right;
+          width: 1rem;
+          vertical-align: top;
+        }
+      }
+    }
+    img{
+      width: 2.24rem;
+      height: 2.24rem;
+    }
+  }
+  .faqs{
+    padding: 0 .4rem;
+    h4{
+      font-size: .32rem;
+      color: #000;
+      background: transparent url(https://img.bongmi.cn/assets/images/19bdab5.png) no-repeat scroll 0 center;
+      border-bottom: .02rem solid rgba(0,0,0,0.12);
+      padding: .4rem 0 .22rem 0;
+    }
+    .faqs-list{
+      border-bottom: .02rem solid rgba(0,0,0,0.12);
+      padding: 0 .4rem;
+      .question{
+        font-size: .3rem;
+        color: rgba(0,0,0,0.8);
+        padding: .25rem 0;
+      }
+      .answer{
+        font-size: .26rem;
+        color: #000;
+        margin-bottom: .35rem;
+      }
+    }
+  }
+  .privacy,.items{
+    margin-top: .4rem;
+    padding: 0 .4rem;
+    font-size: .28rem;
+    color: #000;
+    text-indent: 2em;
+    .item-num{
+      text-indent: 0;
+      margin: .5rem 0 .3rem 0;
+    }
+  }
+  .feedback{
+    padding-top: .4rem;
+    .feedback_form{
+      width: 6.7rem;
+      margin: 0 auto;
+    }
+    p{
+      font-size: .28rem;
+      color: rgba(0,0,0,0.8);
+      margin-bottom: .45rem;
+      &.hint{
+        color: #000;
+      }
+    }
+    .bmui-form-group{
+      width: 100%;
+      margin-bottom: .3rem;
+      display: flex;
+    }
+    textarea{
+      width: 100%;
+      height: 4rem;
+      font-size: .28rem;
+      border: 1px solid rgba(0,0,0,0.12);
+      padding: .1rem;
+    }
+    input{
+      width: 100%;
+      height: .8rem;
+      font-size: .28rem;
+      border: 1px solid rgba(0,0,0,0.12);
+      padding-left: .1rem;
+      &.authcode{
+        width: 1.96rem;
+      }
+    }
+    img{
+      width: 1.96rem;
+      height: .8rem;
+    }
+    .captcha__text{
+      font-size: .32rem;
+      color: #8db511;
+    }
+  }
+}

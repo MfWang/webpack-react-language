@@ -30,11 +30,12 @@
   }
   .menu,.account{
     width: 100%;
-    left: -9999px;
+    left: 0px;
     position: absolute;
     top: -9999px;
     z-index: 2;
     .account-sideBar-li{
+      text-align: center;
       background: #fff;
       height: 1rem;
       padding: 0 .2rem;
@@ -55,9 +56,10 @@
     @extend .menu;
     left: 0;
     top:1rem;
+    height: 100%;
     li{
       &{
-        animation: subNavShow 0.3s linear;
+        animation: subNavShow 1s linear;
         animation-fill-mode: forwards;
       }
       &:nth-child(1) {
@@ -91,22 +93,74 @@
     }
   }
 }
-
-@-webkit-keyframes subNavShow {
+@-webkit-keyframes iconShift1 {
   0% {
-    margin-left:2rem;
+    transform: rotate(0deg);
+  }
+  90% {
+    transform: rotate(30deg) translate(20px,10px);
+    opacity:1;
   }
   100% {
-    margin-left:0;
+    transform: rotate(135deg) translate(20px,-20px);
+    opacity:1;
+  }
+}
+@-webkit-keyframes iconShift2 {
+   0% {
+     transform: rotate(0deg);
+   }
+   90% {
+     transform: rotate(30deg);
+     opacity:1;
+   }
+   100% {
+     transform: rotate(45deg);
+     opacity:1;
+   }
+ }
+@-webkit-keyframes subNavShow {
+  0% {
+  }
+  100% {
     opacity:1;
   }
 }
 @-moz-keyframes subNavShow {
   0% {
-    margin-left:2rem;
   }
   100% {
-    margin-left:0;
     opacity:1;
+  }
+}
+
+.menu-div{
+  width: .5rem;
+  .line{
+    display: block;
+    width: .32rem;
+    height: .02rem;
+    background: #757575;
+  }
+  .line1,.line2{
+    margin-bottom: .09rem;
+  }
+  .line1,.line2,.line3{
+    transition: all 1s;
+  }
+  &.active{
+    .line1{
+      animation: iconShift1 1s linear;
+      animation-fill-mode: forwards;
+      //transform: rotate(45deg) translate(12px,0px);
+    }
+    .line2{
+      background: transparent;
+    }
+    .line3{
+      animation: iconShift2 1s linear;
+      animation-fill-mode: forwards;
+      //transform: rotate(135deg) translate(-20px,10px);
+    }
   }
 }

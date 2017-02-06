@@ -18,9 +18,9 @@ class Femometer extends React.Component {
                     <h2 className="title">{femometer.f2.title}</h2>
                     <p className="desc">{femometer.f2.desc}</p>
                     <div className="icon-list">
-                        <div className="icon-list1">{femometer.f2.btn1}</div>
-                        <div className="icon-list2">{femometer.f2.btn2}</div>
-                        <div className="icon-list3">{femometer.f2.btn3}</div>
+                        <div className="icon-item icon-item1"><p>{femometer.f2.btn1}</p></div>
+                        <div className="icon-item icon-item2"><p>{femometer.f2.btn2}</p></div>
+                        <div className="icon-item icon-item3"><p>{femometer.f2.btn3}</p></div>
                     </div>
                 </div>
                 <div className="f3">
@@ -31,7 +31,7 @@ class Femometer extends React.Component {
                         {
                             femometer.f3.btn.map(function (value,key) {
                                 return (
-                                    <div className={`icon-list${key+1}`}>
+                                    <div className={`icon-item icon-item${key+1}`} key={key+1}>
                                         <p className="desc">{value.title}</p>
                                     </div>
                                 )
@@ -50,8 +50,10 @@ class Femometer extends React.Component {
                     <p className="desc">{femometer.f5.desc}</p>
                 </div>
                 <div className="f6">
+                    <div className="f6-top"></div>
                     <h2 className="title">{femometer.f6.title}</h2>
                     <p className="desc">{femometer.f6.desc}</p>
+                    <div className="f6-bottom"></div>
                     <div className="colors">
                         <span className="white">{femometer.f6.color.white}</span>
                         <span className="blue">{femometer.f6.color.blue}</span>
@@ -66,7 +68,7 @@ class Femometer extends React.Component {
                     {
                         femometer.f7.step.map(function (value,key) {
                             return (
-                                <div className={`step${key+1}`}>
+                                <div className={`step${key+1}`} key={key+1}>
                                     <h3>{value.title}</h3>
                                     <p className="desc">{value.desc}</p>
                                 </div>
